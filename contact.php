@@ -275,27 +275,27 @@ if(isset($_POST['email'])) {
         </div>
     </div>
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+   <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s w-100">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-4 col-md-6 footer-about">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
-                        <a href="index.html" class="navbar-brand">
+                        <a href="index.php" class="navbar-brand">
                             <h3 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>APRODEJ-GUINEE</h3>
                         </a>
-                        <p class="mt-3 mb-4">ASSOCIATION POUR LA PROMOTION ET LE DÉVELOPPEMENT DE L’ENTREPREUNARIAT JEUNESSE <br>****************************<br> ONG DE PROTECTION DES DROITS HUMAINS ET DE L’ENVIRONNEMENT.
+                         <p class="mt-3 mb-4">ASSOCIATION LA PROMOTION ET LE DÉVELOPPEMENT DE L’ENTREPREUNARIAT ET JEUNESSE ONG DE PROTECTION DES DROITS HUMAINS ET DE L’ENVIRONNEMENT.
                             <br> 
                              <br>
                            <em> Le soutien des enfants, jeunes et les personnes vulnerables</em></p>
                       
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-6">
+                <div class="col-8">
                     <div class="row gx-5">
-                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                        <div class="col-lg-5 col-md-12 pt-5 mb-5">
                             <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                                <h3 class="text-light mb-0">Nous faire connaissance</h3>
+                                <h3 class="text-light mb-0">Contact</h3>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-primary me-2"></i>
@@ -308,9 +308,9 @@ if(isset($_POST['email'])) {
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-primary me-2"></i>
-                                <p class="text-primary mb-0" style="font-size: 20px;"> <a href="tel:"+224622515869>+224 622 515 869</a> </p>
+                              <p class="mb-0"> +224 622 515 869</p>
                             </div>
-                            <br>
+                        
                             <div class="d-flex mt-4">
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square me-2" href="https://www.facebook.com/profile.php?id=100063629130970&mibextid=ZbWKwL"><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -320,35 +320,54 @@ if(isset($_POST['email'])) {
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                             <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                                <h3 class="text-light mb-0">Lins rapides</h3>
+                                <h3 class="text-light mb-0">Liens rapides</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
                                 <a class="text-light mb-2" href="index.php"><i class="bi bi-arrow-right text-primary me-2"></i>Accueil</a>
-                                <a class="text-light mb-2" href="apropos.php"><i class="bi bi-arrow-right text-primary me-2"></i>Apropos</a>
-                                <a class="text-light mb-2" href="projets.php"><i class="bi bi-arrow-right text-primary me-2"></i>Nos Projets</a>
-                                <a class="text-light mb-2" href="equipe.php"><i class="bi bi-arrow-right text-primary me-2"></i>Notre Equipe</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Apropos</a>
+                                <a class="text-light mb-2" href="apropos.php"><i class="bi bi-arrow-right text-primary me-2"></i>Nos Projets</a>
+                                <a class="text-light mb-2" href="projets.php"><i class="bi bi-arrow-right text-primary me-2"></i>Notre Equipe</a>
                                
-                                <a class="text-light" href="contact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contactez-nous</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contactez-nous</a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                                <h5 class="text-light mb-0"> APRODEJ ET SES PARTENAIRES</h5>
+                       <div class="col-lg-3 col-md-12 pt-0 pt-lg-5 mb-5">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="text-light mb-0">Partenaires</h3>
+                        </div>
+
+                        <div class="row g-2 text-center">
+                            <div class="col-6">
+                                <img src="img/unicef.png" alt="UNICEF" class="img-fluid bg-white p-1 rounded">
                             </div>
-                            <div class="link-animated d-flex flex-column justify-content-start">
-                               
-                                    <img src="img/logo.png" alt="" width="50%"height="50%"><br>
-                                    <img src="img/logo-union-europeenne.jpg" alt="" width="50%"height="50%"><br>
-                                    <img src="img/logo_coop.4ba0e51e9185.png" alt="" width="50%" height="50%"><br>
-                              
+
+                            <div class="col-6">
+                                <img src="img/logo-union-europeenne.jpg" alt="Union Européenne" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/logo_coop.4ba0e51e9185.png" alt="Coopération" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/AFD.jfif" alt="AFD" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/france.png" alt="France" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/Expertise france.png" alt="Expertise France" class="img-fluid bg-white p-1 rounded">
                             </div>
                         </div>
+                    </div>                 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid text-white" style="background: #061429;">
+    <div class="container-fluid text-white w-100" style="background: #061429; ">
         <div class="container text-center">
             <div class="row justify-content-end">
                 <div class="col-lg-8 col-md-6">
@@ -364,7 +383,7 @@ if(isset($_POST['email'])) {
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="index.html" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -379,5 +398,4 @@ if(isset($_POST['email'])) {
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
-
 </html>

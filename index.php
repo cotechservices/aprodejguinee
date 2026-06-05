@@ -302,11 +302,13 @@
             <h1>Nos partenaires Finaciers</h1>
             <div class="bg-white">
                 <div class="owl-carousel vendor-carousel">
+                    <img src="img/Expertise france.png" alt="" width="50%"height="50%">
+                    <img src="img/AFD.jfif" alt="" width="50%"height="50%">
+                    <img src="img/france.png" alt="" width="50%"height="50%">
+                    <img src="img/unicef.png" alt="" width="50%" height="50%">
                     <img src="img/partenaires1.png" alt="" width="50%"height="50%">
                     <img src="img/logo-union-europeenne.jpg" alt="" width="50%"height="50%">
                     <img src="img/logo_coop.4ba0e51e9185.png" alt="" width="50%" height="50%">
-                    <img src="img/plan2.jpg" alt="" width="50%" height="50%">
-                    <img src="img/unicef.png" alt="" width="50%" height="50%">
                 </div>
             </div>
         </div>
@@ -369,20 +371,37 @@
                                 <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contactez-nous</a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                                
-                                <h3 class="text-light mb-0">Partenaires</h3>
+                       <div class="col-lg-3 col-md-12 pt-0 pt-lg-5 mb-5">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="text-light mb-0">Partenaires</h3>
+                        </div>
+
+                        <div class="row g-2 text-center">
+                            <div class="col-6">
+                                <img src="img/unicef.png" alt="UNICEF" class="img-fluid bg-white p-1 rounded">
                             </div>
-                            <div class="link-animated d-flex flex-column justify-content-start">
-                               
-                                    <img src="img/unicef.png" alt="" width="50%"height="50%"><br>
-                                    <img src="img/logo-union-europeenne.jpg" alt="" width="50%"height="50%"><br>
-                                    <img src="img/logo_coop.4ba0e51e9185.png" alt="" width="50%" height="50%"><br>
-                              
+
+                            <div class="col-6">
+                                <img src="img/logo-union-europeenne.jpg" alt="Union Européenne" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/logo_coop.4ba0e51e9185.png" alt="Coopération" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/AFD.jfif" alt="AFD" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/france.png" alt="France" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/Expertise france.png" alt="Expertise France" class="img-fluid bg-white p-1 rounded">
                             </div>
                         </div>
-                        
+                    </div>                 
                     </div>
                 </div>
             </div>

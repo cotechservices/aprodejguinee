@@ -367,19 +367,22 @@ if(isset($_POST['email'])) {
 
     <!-- Vendor Start -->
    
+        <div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s w-100">
         <div class="container py-5 mb-5">
-            <h2><marquee behavior="" direction="">Nos partenaires</marquee></h2>
+            <h1>Nos partenaires Finaciers</h1>
             <div class="bg-white">
                 <div class="owl-carousel vendor-carousel">
-                    <img src="img/unicef.png" alt="">
-                    <img src="img/logo-union-europeenne.jpg" alt="">
-                    <img src="img/logo_coop.4ba0e51e9185.png" alt="">
-                    <img src="img/plan2.jpg" alt="">   
-                    <img src="img/cu-labe.png" alt="">
-                    <img src="img/mosquee.png" alt="">             
+                    <img src="img/Expertise france.png" alt="" width="50%"height="50%">
+                    <img src="img/AFD.jfif" alt="" width="50%"height="50%">
+                    <img src="img/france.png" alt="" width="50%"height="50%">
+                    <img src="img/unicef.png" alt="" width="50%" height="50%">
+                    <img src="img/partenaires1.png" alt="" width="50%"height="50%">
+                    <img src="img/logo-union-europeenne.jpg" alt="" width="50%"height="50%">
+                    <img src="img/logo_coop.4ba0e51e9185.png" alt="" width="50%" height="50%">
                 </div>
             </div>
         </div>
+    </div>
    
     <!-- Vendor End -->
     <!-- Back to Top -->
