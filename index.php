@@ -39,7 +39,7 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Labé, Guinée Conakry</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Labé et Boké</small>
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+224 622 515 869</small>
                     <small class="text-light"><i class="fa fa-envelope-open me-2"></i> aprodejlabe2007@gmail.com </small>
                 </div>
@@ -362,14 +362,11 @@
             <h1>Nos partenaires Financiers</h1>
             <div class="bg-white">
                 <div class="owl-carousel vendor-carousel">
-                    <img src="img/Expertise france.png" alt="" width="50%" height="50%">
-                    <img src="img/AFD.jfif" alt="" width="50%" height="50%">
-                    <img src="img/france.png" alt="" width="50%" height="50%">
+                    <img src="img/LogoAFD_EF.jpeg" alt="" width="50%" height="50%">
                     <img src="img/unicef.png" alt="" width="50%" height="50%">
-                    <img src="img/partenaires1.png" alt="" width="50%" height="50%">
                     <img src="img/logo-union-europeenne.jpg" alt="" width="50%" height="50%">
                     <img src="img/logo_coop.4ba0e51e9185.png" alt="" width="50%" height="50%">
-                    <img src="img/francophonie_logo.png" alt="Francophonie" width="50%" height="50%" onerror="this.src='img/logo_francophonie.png'">
+                    <img src="img/francophonie_logo.png" alt="Francophonie" width="50%" height="50%">
                 </div>
             </div>
         </div>
@@ -401,7 +398,7 @@
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-primary me-2"></i>
                                 <p class="mb-0">
-                                    <a href="https://www.google.com/maps/place/ONG+APRODEJ/@11.315768,-12.2951546,17z/data=!4m14!1m7!3m6!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!2sONG+APRODEJ!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0!3m5!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0">Labé, Guinée Conakry</a>
+                                    <a href="https://www.google.com/maps/place/ONG+APRODEJ/@11.315768,-12.2951546,17z/data=!4m14!1m7!3m6!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!2sONG+APRODEJ!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0!3m5!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0">Labé et Boké</a>
                                 </p>
                             </div>
                             <div class="d-flex mb-2">

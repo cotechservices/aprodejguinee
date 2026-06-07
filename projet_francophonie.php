@@ -122,7 +122,7 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Labé, Guinée Conakry</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Labé et Boké</small>
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+224 622 515 869</small>
                     <small class="text-light"><i class="fa fa-envelope-open me-2"></i> aprodejlabe2007@gmail.com</small>
                 </div>
@@ -460,7 +460,7 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-primary me-2"></i>
-                                <p class="mb-0">Labé, Guinée Conakry</p>
+                                <p class="mb-0">Labé et Boké</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-primary me-2"></i>

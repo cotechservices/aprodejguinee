@@ -39,7 +39,7 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Labé, Guinée Conakry</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Labé et Boké</small>
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+224 622 515 869</small>
                     <small class="text-light"><i class="fa fa-envelope-open me-2"></i> aprodejlabe2007@gmail.com </small>
                 </div>
@@ -443,7 +443,7 @@
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-primary me-2"></i>
                                 <p class="mb-0">
-                                    <a href="https://www.google.com/maps/place/ONG+APRODEJ/@11.315768,-12.2951546,17z/data=!4m14!1m7!3m6!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!2sONG+APRODEJ!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0!3m5!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0">Labé, Guinée Conakry</a></p>
+                                    <a href="https://www.google.com/maps/place/ONG+APRODEJ/@11.315768,-12.2951546,17z/data=!4m14!1m7!3m6!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!2sONG+APRODEJ!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0!3m5!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0">Labé et Boké</a></p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-primary me-2"></i>
