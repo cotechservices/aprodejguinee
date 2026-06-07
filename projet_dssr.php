@@ -47,7 +47,6 @@
         }
        
         .beneficiary-card {
-            background: linear-gradient(135deg, #06BBCC 0%, #0d9488 100%);
             color: white;
             border-radius: 10px;
             padding: 20px;
@@ -187,7 +186,7 @@
             </div>
             
             <!-- Informations clés -->
-            <div class="row g-4 mb-5">
+            <div class="row g-4 mb-5 bg-primary">
                 <div class="col-lg-4 col-md-6 wow slideInUp" data-wow-delay="0.1s">
                     <div class="info-card text-center">
                         <i class="fas fa-hand-holding-usd fa-3x text-primary mb-3"></i>
@@ -196,7 +195,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="info-card text-center">
+                    <div class="info-card text-center ">
                         <i class="fas fa-map-marked-alt fa-3x text-primary mb-3"></i>
                         <h4>Zone d'intervention</h4>
                         <p>Préfectures de Boké, Gaoual et Koundara</p>
@@ -237,7 +236,7 @@
             </div>
             
             <!-- Bénéficiaires -->
-            <div class="row mb-5">
+            <div class="row mb-5 bg-primary">
                 <div class="col-12">
                     <div class="section-title text-center position-relative pb-3 mb-4 mx-auto">
                         <h2 class="fw-bold text-primary text-uppercase">Nos bénéficiaires</h2>

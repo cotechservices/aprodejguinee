@@ -92,8 +92,8 @@
                  <img class="w-100" src="img/apro.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-4" style="max-width: 900px;">
-                            <h5 class="display-1 text-white mb-md-4 animated zoomIn">LUTTE CONTRE "MGF"</h5>  
-                            <p style="text-align: center; font-size: 15px;">Mutilations Génitales Feminines</p>
+                            <h5 class="display-4 text-white mb-md-4 animated zoomIn">DROITS HUMAINS (VBG/MGF) - SANTE (DSSR/PF - VACCINATION) </h5>  
+                            <p style="text-align: center; font-size: 20px;">Gouvernance, Éducation, Environnement</p>
                             <a href="blog.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Activités</a>
                             <a href="contact.php" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
                         </div>
@@ -145,8 +145,8 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="text-white mb-0">Personnes touchées depuis <B>2007</B></h5>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">27845 </h1>
-                            <h4>Dont <b class="text-white">22217</b>  FEMME</h4>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">885000 </h1>
+                            <h4>Dont <b class="text-white">59217</b>  FEMME</h4>
                         </div>
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="text-primary mb-0">Projects effectués</h5>
-                            <h1 class="mb-0" data-toggle="counter-up">10</h1>
+                            <h1 class="mb-0" data-toggle="counter-up">14</h1>
                             <h4> <a href="projets.php">Voir plus...</a></h4>
                         </div>
                     </div>
@@ -190,7 +190,7 @@
                         <h5 style="text-align: center;"> 
                              ASSOCIATION DE LA PROMOTION ET LE DÉVELOPPEMENT DE L’ENTREPREUNARIAT ET JEUNESSE
                              ONG DE PROTECTION DES DROITS HUMAINS ET DE L’ENVIRONNEMENT</h5>
-                             <h4 style="text-align: center; font:bold;"> <b>"17 ans"?</b> la durée d'existence et d'expérience de gestion de projets en Guinée </h4>
+                             <h4 style="text-align: center; font:bold;"> <b>"Plus de 20 ans"?</b> la durée d'existence et d'expérience de gestion de projets en Guinée </h4>
                     <p style="text-align: justify; ">Appuyer les communautés dans le choix et la réalisation      d’infrastructures de base : écoles, postes de santé, aménagement de petits bas-fonds, magasins de stockage, silo et ouvrages de franchissement ; <br>
                             Faciliter l’accès à des technologies adaptées (obtention de moulins et de matériels légers de transformation et de conservation des produits agricoles).
                     </p>
@@ -215,7 +215,7 @@
         </div>
     </div>        
          <br>
-       <div class="col-12 container">
+    <div class="col-12 container">
     <!-- Début projet DSSR -->
     <h1 class="fw-bold text-primary text-uppercase text-center">Projet d'appui aux Droits et à la Santé Sexuelle et Reproductive</h1>
     <h2 class="mb-0 text-center">des Adolescent.e.s et Jeunes de 10-24 ans</h2>

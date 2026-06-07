@@ -104,9 +104,59 @@
     </div>
     <!-- Full Screen Search End -->
 
-     <!-- projet BOKE -->
-     <div class="col-12 container">
-                <h1 class="fw-bold text-primary text-uppercase text-center">PROJET OCTOBRE 2024</h1>
+    
+     <div class="col-12 container"> 
+        <!-- projet BOKE -->
+          <!-- Début projet DSSR -->
+    <h1 class="fw-bold text-primary text-uppercase text-center">Projet d'appui aux Droits et à la Santé Sexuelle et Reproductive</h1>
+    <h2 class="mb-0 text-center">des Adolescent.e.s et Jeunes de 10-24 ans</h2>
+    <br>
+    <img src="img/DSSR_imagesT1_Janv-Mars26/Cérémonie lancement 06 Mars 26_les officiels.JPG" style="border-radius: 5px;" alt="" width="100%">
+    <br>
+    <br>
+    <div class="row col-12" style="text-align: justify;">
+        <div class="">
+            <h4 style="text-align: justify;"><i>Financement :</i> <b class="text-primary">Expertise France (EF) du Groupe Agence Française de Développement (AFD)</b></h4>
+            <h5 style="text-align: justify;"><b>Ministère Tutelle :</b> Ministère de la Santé et de l'Hygiène Publique</h5>
+            <h5 style="text-align: justify;"><b>Mise en œuvre :</b> ONG Association pour la Promotion et le Développement de l'Entrepreneuriat Jeunesse (<b>APRODEJ</b>) à Boké.</h5>
+            <h5 style="text-align: justify;"><b>Zone de couverture :</b> Préfectures de Boké, Gaoual et Koundara (25 Communes couvertes)</h5>
+            <h5 style="text-align: justify;"><b>Durée :</b> 12 mois : Janvier – Décembre 2026</h5>
+            <h5 style="text-align: justify;"><b>Secteur :</b> Santé / Protection des enfants</h5>
+            
+            <h3 style="text-align: justify;"><b>Bénéficiaires finaux</b></h3>
+            <h5 style="text-align: justify;"><b>Total :</b> 31 285 personnes touchées</h5>
+            <ul>
+                <li>Adolescent.e.s de 10 à 19 ans : <b>8 031</b> (4 819 filles et 3 211 garçons)</li>
+                <li>Jeunes de 20 à 24 ans : <b>12 540</b> (7 524 filles et 5 016 garçons)</li>
+                <li>Adultes de plus de 25 ans : <b>10 714</b> (6 429 femmes et 4 284 hommes)</li>
+            </ul>
+            
+            <h3 style="text-align: justify;"><b>Objectif général</b></h3>
+            <h5 style="text-align: justify;">Contribuer à la création d'un environnement favorable à la promotion de la Santé Sexuelle et Reproductive en Guinée</h5>
+            
+            <h3 style="text-align: justify;"><b>Objectif spécifique</b></h3>
+            <h5 style="text-align: justify;">Renforcer la prévention et la réponse aux inégalités de genre et VBG parmi les adolescent.es et jeunes de 10 à 24 ans au sein des communautés de 3 préfectures de la région de Boké (Boké, Gaoual et Koundara) d'ici la fin du projet</h5>
+            
+            <h3 style="text-align: justify;"><b>Résultats escomptés</b></h3>
+            <ul>
+                <li><b>Résultat 1 :</b> Les connaissances des jeunes et des enfants de 10 à 24 ans sur les enjeux de DSSR/PF et de lutte contre les VBG, sont améliorées à travers la mobilisation et la sensibilisation, en milieu scolaire et communautaire</li>
+                <li><b>Résultat 2 :</b> Les parents d'enfants et jeunes, leaders communautaires et religieux ont développé leurs connaissances sur la DSSR/PF ainsi que leur rôle de "protecteur" contre les VBG</li>
+                <li><b>Résultat 3 :</b> Les capacités des structures de santé, Organisations de la Société Civile (OSC locales, Organisations communautaires de base), CECOJE, Club des Jeunes Filles leaders de Guinée, les membres des groupements de femmes et collèges sont renforcées en matière de DSSR/PF et lutte contre les VBG</li>
+            </ul>
+            
+            <img src="img/DSSR_imagesT1_Janv-Mars26/Cérémonie lancement 06 Mars 26_Discour Expertise France.JPG" style="border-radius: 5px; margin-top: 20px;" alt="" width="100%">
+        </div>
+    </div>
+    <br>
+    <a href="projet_dssr.php" class="btn btn-primary btn-lg shadow-sm px-4 py-2 rounded-pill">
+        <i class="bi bi-info-circle me-2"></i> Plus de détails sur le projet DSSR
+    </a>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <!-- Fin projet DSSR -->
+                <h1 class="fw-bold text-primary text-uppercase text-center"> OCTOBRE 2024</h1>
                 <h2 class="mb-0 text-center">Contribuer à l'abandon des pratiques de Mutilations Génitales Féminines (MGF) dans les régions de Conakry, Kindia et Boké
                 </h2>
                 <br>
@@ -133,7 +183,7 @@
             </div>
             <br>
              <a href="unicef2024.php" class="btn btn-primary btn-lg shadow-sm px-4 py-2 rounded-pill">
-            <i class="bi bi-info-circle me-2"></i> Savoir plus sur le projet UNICEF ZONE BOKE
+            <i class="bi bi-info-circle me-2"></i> Savoir plus sur le projet UNICEF
             </a>
         </div>
        <!-- PROJET BOKE end -->

@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Contact</title>
+    <title>aprodejguinee.org</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
+    <meta  name = " viewport "  content = " width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -21,25 +22,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="css/owl.carousel.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="envoyer-message.php"> -->
+    <link href="css/index.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner"></div>
-    </div>
-    <!-- Spinner End -->
-
-
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-5 d-none d-lg-block w-100">
         <div class="row gx-0">
@@ -57,45 +51,68 @@
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
-
-
-    <!-- Navbar & Carousel Start -->
-    <div class="container-fluid position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-            <img src="img/logo.jpg" width="10%" alt="logo aprodej" style="position: relative;">
-        </a>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                 <span class="fa fa-bars"></span>
-             </button>
-             <div class="collapse navbar-collapse" id="navbarCollapse">
-                 <div class="navbar-nav ms-auto py-0">
-                     <a href="index.php" class="nav-item nav-link ">Accueil</a>
-                     
-                     <a href="projets.php" class="nav-item nav-link">Nos projets</a>
-                     <!--<a href="projets.html" class="nav-item nav-link">Evenements</a>-->
-                      <a href="equipe.php" class="nav-item nav-link">Membres</a>
-                      <a href="blog.php" class="nav-item nav-link">Activités</a>
-                      <a href="apropos.php" class="nav-item nav-link">Apropos</a>
-                     <a href="contact.php" class="nav-item nav-link active">Contact</a>
-                     </div>
-                     
-                 </div>
-              
-         </nav>
-
-        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
-            <div class="row py-5">
-                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-                    <h1 class="display-4 text-white animated zoomIn">Contactez-nous</h1>
-                    <a href="" class="h5 text-white">Actif 7/7</a>
-                    <i class="far fa-circle text-white px-2"></i>
-                    <a href="" class="h5 text-white">24H/24</a>
+    <!-- Topbar End -->        
+         <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0 w-100">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid px-2 px-md-4">
+                    <img src="img/logo.jpg" alt="logo aprodej" style="width: 55px; height: auto; border-radius: 10px;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-label="Menu">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto py-2 py-lg-0">
+                        <li class="nav-item"><a href="index.php" class="nav-link ">Accueil</a></li>
+                        <li class="nav-item"><a href="apropos.php" class="nav-link">Apropos</a></li>
+                        <li class="nav-item"><a href="projets.php" class="nav-link">Projets</a></li>
+                        <li class="nav-item"><a href="equipe.php" class="nav-link">Membres</a></li>
+                        <li class="nav-item"><a href="blog.php" class="nav-link">Activités</a></li>
+                        <li class="nav-item"><a href="contact.php" class="nav-link active">Contact</a></li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+         <div id="header-carousel" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               
+                <div class="carousel-item active">
+                 <img class="w-100" src="img/main.png" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                       
+                        <div class="p-3" style="max-width: 900px;">
+                            
+                            <h5 class="display-1 text-white mb-md-4 animated zoomIn">APRODEJ-GUINEE </h5>
+                            <p style="text-align: center; font-size: 15px;">ONG DE PROTECTION DES DROITS HUMAINS ET DE L’ENVIRONNEMENT</p>
+                            <a href="blog.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Activités</a>
+                            <a href="contact.php" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item w-100">
+                 <img class="w-100" src="img/apro.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-4" style="max-width: 900px;">
+                            <h5 class="display-4 text-white mb-md-4 animated zoomIn">DROITS HUMAINS (VBG/MGF) - SANTE (DSSR/PF - VACCINATION) </h5>  
+                            <p style="text-align: center; font-size: 20px;">Gouvernance, Éducation, Environnement</p>
+                            <a href="blog.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Activités</a>
+                            <a href="contact.php" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
-    <!-- Navbar End -->
+    <!-- Navbar & Carousel End -->
 
 
     <!-- Full Screen Search Start -->

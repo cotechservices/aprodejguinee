@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>statut</title>
+    <title>aprodejguinee.org</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
+    <meta  name = " viewport "  content = " width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -29,28 +30,90 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="envoyer-message.php">
+    <link href="css/index.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner"></div>
-    </div>
-    <!-- Spinner End -->
-
-
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-        <div class="row gx-0"> 
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block w-100">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Labé, Guinée Conakry</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+224 622 515 869</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i> aprodejlabe2007@gmail.com </small>
+                </div>
+            </div>
+            <div class="col-lg-4  text-lg-end text-center text-lg-end mb-4 mb-lg-0">
+                <div class="text-lg-end text-center text-lg-end mb-6 mb-lg-0 align-items-end" style="height: 45px;">
+                    <p style="color: aliceblue; text-align: center; ">APRODEJ-GUINEE <br>l'ONG qui défend vos droits </p>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- Topbar End -->
-    <!-- Navbar & Carousel Start -->
-   
-            <a href="apropos.php" class="nav-item nav-link "> <span class="fa fa-arrow-left"> </span></a>  
-       
-    <!-- Navbar End -->
+    <!-- Topbar End -->        
+         <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0 w-100">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid px-2 px-md-4">
+                    <img src="img/logo.jpg" alt="logo aprodej" style="width: 55px; height: auto; border-radius: 10px;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-label="Menu">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto py-2 py-lg-0">
+                        <li class="nav-item"><a href="index.php" class="nav-link ">Accueil</a></li>
+                        <li class="nav-item"><a href="apropos.php" class="nav-link active">Apropos</a></li>
+                        <li class="nav-item"><a href="projets.php" class="nav-link">Projets</a></li>
+                        <li class="nav-item"><a href="equipe.php" class="nav-link">Membres</a></li>
+                        <li class="nav-item"><a href="blog.php" class="nav-link">Activités</a></li>
+                        <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+         <div id="header-carousel" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               
+                <div class="carousel-item active">
+                 <img class="w-100" src="img/main.png" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                       
+                        <div class="p-3" style="max-width: 900px;">
+                            
+                            <h5 class="display-1 text-white mb-md-4 animated zoomIn">APRODEJ-GUINEE </h5>
+                            <p style="text-align: center; font-size: 15px;">ONG DE PROTECTION DES DROITS HUMAINS ET DE L’ENVIRONNEMENT</p>
+                            <a href="blog.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Activités</a>
+                            <a href="contact.php" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item w-100">
+                 <img class="w-100" src="img/apro.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-4" style="max-width: 900px;">
+                            <h5 class="display-4 text-white mb-md-4 animated zoomIn">DROITS HUMAINS (VBG/MGF) - SANTE (DSSR/PF - VACCINATION) </h5>  
+                            <p style="text-align: center; font-size: 20px;">Gouvernance, Éducation, Environnement</p>
+                            <a href="blog.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Activités</a>
+                            <a href="contact.php" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Navbar & Carousel End -->
+
     <!-- Full Screen Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1">
         <div class="modal-dialog modal-fullscreen">
@@ -69,561 +132,401 @@
     </div>
     <!-- Full Screen Search End -->
 
-
     <!-- Contact Start -->
     <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
-            <div class="section-title  position-relative mx-auto text-center">
-                <img src="img/logo.jpg" alt="" class="">
-                <h1 class="fw-bold text-primary text-center"> STATUTS ET REGLEMENT INTERIEUR </h1>
-        <h3 class="text-center">I - STATUTS</h3>
-
-        <div class="container col-12 row">
-
-            <div class="col-6">
-            <p class="text-dark" style="text-align: justify;">
-                <b class="">TITRE I : </b> CONSTITUTION-DENOMINATION-SIEGE SOCIAL- DUREE -OBJECTIFSET 
-DOMAINES D’INTERVENTION <br>
- 
-<b>Artcle1:</b>  Constitution 
-Les adhérents aux présents statuts constituent les membres de l’ONG conformément  à la loi L/2005/013/AN de l’Assemblée Nationale du  4 juillet 2005 adoptant et promulguant la loi fixant le régime des Associations en République de Guinée. <br>
-<b>APRODEJ/ GUINEE </b> est une organisation non gouvernementale, apolitique et non confessionnelle. <br>
-<b>Article2 : </b>Dénomination <br> 
-L’ONG prend la dénomination APRODEJ / GUINEE (L’Association pour la promotion et le 
-Développement de l’entrepreneuriat Jeunes).Tous les actes et documents de l’institution  porteront cette dénomination. <br>
-<b>Article 3 :</b> Siège social <br>
-L’OSC a son  siège social à Labé (Quartier Pounthioun, Secteur N’Djolou, Commune Urbaine de Labé) en République de Guinée. Il peut être transféré sur toute l’étendue du territoire national et peut  disposer des antennes  partout ou besoin sera sur décision de l’assemblée générale. <br>
-<b>Article 4 :</b>  Durée <br>
- La durée de l’institution est illimitée. <br>
- <b>Article 5 :</b> Objectifs <br>
-<b>- Objectif global </b> <br>
-L’objectif global est d’appuyer les communautés à la base pour un développement économique social durable  et la protection  des droits humains. <br>
- <b>- Objectifs spécifiques : </b>
-L’ONG  se fixe comme objectifs : <br>
-1-	Développer l’esprit de solidarité et l’entraide chez les jeunes ; <br>
-2-	Promouvoir l’entreprenariat en faveur des  associations de jeunes et des groupements à travers des sessions de formation en esprit  et gestion d’entreprise et les appuis conseils ; <br>
-3-	Faire des plaidoyers pour l’implication des jeunes dans les instances de prise de décision et promouvoir la protection des droits des filles/femmes et des enfants ; <br>
-4-	Sensibiliser et accompagner les communautés sur la protection de l’environnement ; <br>
-5-	Développer des relations de coopération et de partenariat avec les institutions publiques et privées, nationales et étrangères dans l’optique de l’atteinte des objectifs que APRODEJ-Guinée s’est fixée. <br>
-
-<b>Article 6 :</b> <br>
-Domaines d’interventions  Les domaines d’intervention sont: <br>
-Citoyenneté et entrepreneuriat ; <br>
-Les droits  humains (VBG/MGF, protection fille/femme); <br>
-Santé (IST/VIH/SIDA, malnutrition) ; <br>
-Gouvernance locale; <br>
-Education ; <br>
-Environnement ; <br>
-Agriculture familiale ; <br>
-Activité économique (AGR) ; <br>
-<em><b>1-	Développement local (Bonne gouvernance): </b></em> <br>
-Formation des  élus locaux et associations de jeunesses ; <br>
-Promouvoir les bonnes pratiques relatives à la gestion transparente des ressources financières, matérielles et humaines des communautés ; <br>
-Appuyer les décideurs politiques afin d’asseoir des politiques adéquates, des lois et règlements adaptés favorisant un développement  local durable ; <br>
-Appui  à l’élaborations des PDL  et PAI  ; <br>
-Appuyer techniquement les communautés et les services techniques  de l’Etat dans l’élaboration 
-et la mise en œuvre des plans de développements locaux; <br>
- 
-<em><b>2-	Équité et genre :  </b></em>
-Favoriser l’implication des couches vulnérables (notamment les femmes) dans le processus de développement socio-économique des communautés; 
-Promouvoir l’intégration des femmes et des jeunes dans les activités socioéconomiques et politiques ;  
-Et  promouvoir l’équité.  
-des vaccins à temps contre les maladies épidémiques des bovins, ovins, caprins et volailles. 3- Infrastructures et équipements sociaux de base : 
-Appuyer les communautés dans le choix et la réalisation d’infrastructures de base : écoles, postes de santé, aménagement de petits bas-fonds, magasins de stockage, silo et ouvrages de franchissement ; 
-Faciliter l’accès à des technologies adaptées (obtention de moulins et de matériels légers de transformation et de conservation des produits agricoles)  
-Participer à la pérennisation des acquis des projets et programmes de développement. 
- 
-<b>TITRE II : </b>ADHESION, DROITS ET DEVOIRS DES MEMBRES-PERTE DE LA QUALITE <br>
-<b>Article7 :</b> Adhésion  <br>
-Est membre, toute personne ayant une aptitude physique, morale qui : 
--	Adhère  aux présents statuts ; 
--	Paie son droit d’adhésion (100 000 GNF) ; 
--	Paie ses cotisations ; 
--	Exerce des tâches allant dans le sens de l’atteinte des objectifs fixés à l’article 5 des présents statuts. <br>
-<b>Article 8 :</b> Droits et devoirs <br>
-<b>1)  - Des droits :</b> Tout membre de l’Association jouit des droits ci-après : <br>
-A droit à un badge de membre de l’ONG ; <br>
-Participer aux activités de l’ONG ; <br>
-Bénéficier de tous les avantages de l’ONG ; <br>
-Elire et être élu aux différents organes de l’ONG ; <br>
-Etre informé sur toutes les activités  de l’ONG ; <br>
-Démissionner librement selon les modalités définies dans le règlement intérieur. <br>
-<b>2)- Des devoirs :</b> Tout membre a l’obligation de : <br>
-Se conformer aux dispositions légales, statutaires et réglementaires de l’ONG ; <br>
-Assister aux réunions et assemblées générales de l’ONG; <br>
-Favoriser la cohésion sociale entre les membres ; <br>
-Développer, au besoin des activités d’une manière bénévole au compte de l’ONG ; <br>
-S’acquitter régulièrement de ses cotisations mensuelles fixées à 20.000 francs Guinéens et autres cotisations; <br>
-Eventuelles nécessaires pour la survie et le bon fonctionnement de l’ONG ;  participer pleinement aux activités de l’ONG. Article9 : Ressources financières de l’ONG ; <br>
-Les ressources financières proviennent essentiellement des: <br>
-Cotisations de ses membres ; <br>
-Des droits d’adhésion ; <br>
-Subventions provenant de l’état, des collectivités et des partenaires ; <br>
-Ressources propres issues des différentes prestations de l’ONG ; <br>
-Empreints ; <br>
-Dons et Legs ; <br>
-Toutes autres ressources licites. <br>
-<b>Article10 :</b> De la gestion des ressources financières et matérielles de  l’ONG <br>
-Les ressources  demeurent les biens de l’institution, nul n’a le droit d’en faire une propriété privée. Chaque membre  a droit d’y veiller et d’en faire bon usage dans l’esprit et au compte de l’ONG. <br>
-<b>Article 11 :</b> Représentation et signature <br>
-L’ONG  est officiellement  représentée par un des membres du CA ou tous autres membres munis d’ordre de mission. <br>
-Les engagements de l’ONG sont faits comme suit : <br>
-Pour les contrats et conventions, ordres de mission et lettres, trois personnes sont habilitées à signer à savoir le président, le vice-président et le directeur exécutif. <br>
-Pour les opérations bancaires, deux signataires sont obligatoires avec un suppléant. <br>
-Ces signataires sont le président,  le trésorier  et le vice-président. <br>
-Toutefois, le Directeur Exécutif est l’ordonnateur des dépenses. A son absence elles sont ordonnées par son intérimaire. <br>
-<b>TITRE III :</b> STRUCTURES  ET FONCTIONNEMENT  <br>
-<b>Article 12 :</b> Des instances  <br>
-Les instances de l’ONG sont les suivantes : <br>
-a)	l’Assemblée Générale Ordinaire (AG); <br>
-b)	l’assemblée générale extraordinaire <br>
-c)	les réunions du conseil d’administration Les organes de l’ONG : <br>
--	le conseil d’administration <br>
--	le bureau exécutif <br>
--	les commissions techniques <br>
--	le commissariat au compte <br>
-<b>Article13 :</b> de l’Assemblée Générale <br>
-L’Assemblée Générale est l’organe suprême. Elle adopte et modifie les statuts et prend toute décision concernant l’organisation,  la gestion et le fonctionnement de l’ONG. Elle est  convoquée une fois par an en session ordinaire par le président du Conseil d’Administration. En cas de défaillance du président, à la demande de deux tiers des membres du CA. 
-Elle peut être convoquée en session extraordinaire sur la demande des  deux tiers des membres de l’ONG.<br>  
-<b>Article14 :</b> Le Conseil d’Administration (CA) <br>
-Il est l’organe d’administration et de gestion de l’ONG et composé de : <br>
-a)	Un Président ;  <br>
-b)	Un  vice-président ; <br>
-c)	Un trésorier ;  <br>
-d)	Un chargé de formation ; <br>
-e)	Un chargé de suivi - évaluation. <br>
-f)	Un chargé de communication/information ; <br>
-g)	Un chargé de programme et projet ; <br>
-h)	Genre et inclusion sociale ; <br>
-i)	Partenariat et coopération ;<br>
-Le CA est convoqué deux fois par an par son Bureau  Exécutif. Il est chargé de l’exécution des décisions de l’AG et administre l’ONG entre les sessions de l’AG. 
-Il  peut également se réunir en session extraordinaire conformément aux disposions du règlement intérieur et en cas d’urgence.  
-Les membres du Conseil sont élus par l’Assemblée Générale (AG) au scrutin secret par les membres de l’ONG pour un mandat trois ans renouvelable une seule fois. <br>
-<b>Article 15 :</b> Attributions du bureau Exécutif et du CC  a- Bureau exécutif <br>
-Le bureau exécutif est composé comme suit : <br>
--	Un Directeur Exécutif <br>
--	Un secrétaire <br>
--	Un chargé de suivi évaluation <br> 
--	Un chargé de formation Le bureau Exécutif  a pour tâches : <br>
--	Exécuter les décisions du CA de l’ONG à ce titre, assurer l’animation et le suivi des différentes activités sur le terrain ; <br>
--	Elaborer  les plans d’action, le budget de l’ONG  et les rapports d’activités ; - Appuyer le CA dans le montage des projets ; <br>
--	Participer à la mobilisation des ressources, tant au niveau national qu’au niveau international ; <br>
--	Préparer les accords et conventions de partenariat à ratifier par le président du Conseil d’Administration. Il peut déléguer tout ou une partie de son pouvoir à un des membres du CA ; <br>
-b- Commissariat au compte : <br>
-Il est composé comme suit : <br>
--	Un président <br>
--	Un vice-président et un rapporteur Le CC est l’organe de contrôle permanent interne de l’ONG. Il est chargé de contrôler le processus de recrutement, le processus de passation de marché et la gestion des ressources de l’organisation. Il est composé de trois membres qui sont élus pour un mandat de trois ans renouvelable une fois. 
-Toute activité du CC est assujettie à la production d’un rapport présenté au CA. <br>
-
-<b>TITRE V : </b>DISPOSITIONS GENERALES <br>
-<b>Article 16 : </b>Des modifications <br>
-Les statuts et règlement intérieur de l’ONG ne peuvent être modifiés ou amendés qu’en assemblée générale et validés par le Conseil d’Administration. <br>
-<b>Article 17 : </b>De la résolution des conflits  <br>
-Le bureau exécutif s’emploiera à faire éviter  tout facteur susceptible de nuire au bon fonctionnement de l’ONG. En cas de conflits, il a  la charge de les résoudre à l’amiable, au cas échéant se référer au CA. Dans la mesure où le CA ne trouve pas la solution au conflit, il sera porté dans les juridictions compétentes.        <br>         
-<b>Article18:</b> Perte de la qualité de membre La qualité de membre se perd par : <br>
--	Démission <br>
--	Par exclusion <br>
--	Dissolution de l’organisation <br>
--	Décès <br>
-Toutes fois le remplacement d’un membre décédé par un héritier peut être voté en AG. Démission : <br>
-Tout membre de l’ONG dispose de la libre faculté de démissionner en avisant par lettre motivée au CA qui devra statuer. <br>
-La démission une fois acceptée par cet organe ne prendra effet qu’a la suite de l’exécution des membres de toutes les obligations encourues vis-à-vis de l’ONG à la date de la démission. Exclusion : Tout membre peut être exclu par le CA qui en informe l’assemblée générale en cas de non payement des cotisations et autres obligations après deux rappels restés sans effet dans un délai de quatre mois. <br>
-Tout membre faisant objet d’une procédure d’exclusion à la possibilité d’exposer ces observations devant le CA. 
-<b>Article 19 : </b>Modification des Statuts <br>
-L’assemblée générale ordinaire ou extraordinaire est convoquée au besoin, notamment pour la modification des statuts, ou pour débattre des problèmes importants de l’institution. Elle a lieu à la demande de la majorité (2/3) des membres et est convoquée par le président  du Conseil d’Administration 15jours francs avant la date fixée. <br>
-<b>Article  20 :</b> Dissolution et liquidation <br>
-La proposition de dissolution est acceptée par le Conseil d’Administration à la demande des (3\4) de ses membres .Elle est publiée 3 mois avant la tenue de l’assemblé générale. La dissolution est prononcée à la suite d’un vote au scrutin secret.
-Les membres fondateurs notifiés dans l’article 4 du règlement intérieur, jouissent d’un droit de veto (prépondérance de voix, dernier recours). 
-En cas de dissolution, la liquidation et l’affectation des biens seront assurées par un membre désigné par le Conseil d’Administration conformément aux dispositions de la Loi L/2005/013/AN au chapitre IX   portant dissolution et pénalités. <br>
-
-<b>Article  21 :</b> Du Règlement Intérieur <br>
-Pour tout ce qui n’est pas prévu dans les présents statuts, il sera établi un règlement intérieur de l’ONG à soumettre en assemblée générale constitutive pour adoption. Le Conseil d’Administration a charge  de saisir l’autorité compétente, et ce dans un délai de trois (3) mois pour lui notifier tout changement apporté aux présents statuts. <br>
- 	
-<div class="SIGNATURE DEBUT">
-    <h4 class=" text-center">
-    Fait et adopté à Labé le        15     /     Janvier   /   2022 
-    <br><br>
-    <img src="img/presi.png" alt="" style="width: 40%;">
-    <br><br>
-Le président
-
-
-Sidy BARRY
-    </h4>
-</div>
+            <div class="section-title position-relative mx-auto text-center">
+                <br>
+                <h1 class="fw-bold text-black text-center"> STATUTS ET REGLEMENT INTERIEUR </h1>
             </div>
-            <div class="col-6">
-                <p class="text-dark" style="text-align: justify;">
-    <b class=" text-center">PREAMBULE </b>
- 
- Le présent règlement intérieur complète et précise les dispositions des statuts. Il est applicable aux adhérents actuels et futurs de l’ONG APRODEJ/ GUINEE. Il est établi conformément aux statuts de l’ONG et les dispositions de la loi 013 régissant les ONG en République de Guinée. Tout membre a obligation de se soumettre et d’appliquer le présent règlement. <br>
- <b>TITRE I :</b> DE L’ETABLISSEMENT <br>
- <b>Article 1 : </b> <br>
- Les dispositions et clauses du présent règlement intérieur complètent les statuts et définissent les modalités d’organisation et de fonctionnement de l’ONG. 
- Ce règlement intérieur a été revu et adopté au cours de l’assemblée générale constitutive des membres de l’ONG, tenue à Labé le 15/01/2022.  <br>
- <b>Article 2 : </b> <br>
- Le respect du présent règlement intérieur est obligatoire pour tous les membres .Aucun membre n’est censé ignorer ses clauses. 
- Des copies du règlement intérieur établies en français seront disponibles au siège de l’ONG et dans toutes ses représentations. Chaque membre a le droit de le consulter et ou se faire expliquer le contenu. <br>
- <b>TITRE II :</b> DES ADHESIONS  <br>
- <b>Article 3 : </b>
- Est membre,  toute personne qui jouit de ses aptitudes physiques et mentales et qui en manifeste le désir en adhérant aux statuts et règlement intérieur et s’acquitte régulièrement de ses obligations définies par les présents textes. <br>
- La procédure d’adhésion est la suivante : <br>
- Adresser une demande  au président du Conseil d’Administration expliquant ses motivations,  joindre une copie du diplôme et du CV. <br>
- L’accord de l’adhésion ou le refus ne sont prononçables qu’en Assemblée Générale. <br>
- Verser les frais d’adhésions fixés à 100.000GNF ; <br>
- <b>Article 4 :</b> Les membres fondateurs  <br>
- Possède le statut de membre fondateur, toute personne physique ayant participé à la première réunion constitutive de l’ONG.  <br>
- <b>Article 5 : </b>Des droits  <br>
- Tout membre jouit des droits ci-après : <br>
- Assister aux Assemblées Générales de l’ONG, prendre la parole pour exprimer ses opinions ; <br>
- Elire et être élu dans les différents organes de gestion de l’institution ; <br>
- - Participer aux diverses activités de l’ONG ; <br>
- Avoir des informations sur l’ONG à l’occasion des réunions mensuelles, des CA et de l’assemblée générale. <br>
- <b>Article 6 :</b> Des obligations (Devoir des membres) Obligation est faite à tout membre : <br>
- de se conformer aux dispositions légales, statutaires et réglementaires de l’ONG ; <br>
- D’assister aux réunions et assemblées générales de l’institution; <br>
- De participer aux activités de l’ONG ; <br>
- De s’acquitter de ses cotisations ; <br>
- De contribuer à l’atteinte des objectifs de l’institution ;  de veiller à la bonne image de l’ONG. <br>
- <b>Article 7 : </b>Des sanctions <br> 
- Les manquements aux dispositions du règlement intérieur et des statuts exposent, selon leur degré de gravité les contre venants aux sanctions suivantes : <br>
- Avertissement ; <br>
- Blâmes ; <br>
- Perte temporaire de 30 jours de la qualité de membre prononcée par le Conseil d’Administration ; <br>
- Suspensions d’une année prononcée par l’Assemblée Générale; <br>
- Expulsion prononcée lors des assemblées générales et pour les cas suivants : <br>
- Refus de se conformer aux décisions de l’assemblée générale ; <br>
- Absences délibérées aux activités de l’ONG ; - violation des dispositions statutaires de l’ONG ; <br>
- Indiscipline manifeste lors des réunions et Assemblées Générales ; <br>
- <b>Article 8 :</b> Exclusion   <br>
- L’exclusion et la radiation sont prononcées en assemblée générale. <br>
- L’exclusion d’un membre de l’institution survient dans les cas suivants : <br>
- lors qu’il ne respecte pas les statuts et règlement intérieur de l’ONG et les lois et règlements en vigueur régissant la vie associative en République de Guinée ; <br>
- lors qu’il est reconnu coupable de détournement et de comportements de nature à compromettre l’harmonie et l’image de marque de l’institution ; <br>
- Le refus de payer régulièrement ses cotisations ; <br>
- Des absences notoires aux réunions et assemblées générales. <br>
- Détournement ou le vol de biens de l’institution. <br>
- <b>Article9 : </b>Démission  <br>
- Tout membre   dispose du droit de démission. Il en manifeste le désire par écrit au Conseil d’Administration qui a charge de rendre compte en Assemblée Générale qui examine le bienfondé de la démission. L’assemblée générale engagera une procédure de conciliation, qui pourrait aboutir à l’acceptation ou au refus de la démission.   
- Article 10 : Décès /maladies <br>
- En cas de décès, ou incapacité physique et mentale d’un membre du CA, l’empêchant  à exercer de sa fonction, un intérimaire est désigné par le CA  en attendant l’organisation d’une élection partielle à la prochaine Assemblée Générale. Toutefois, les droits du défunt peuvent être réservés à ses héritiers ou ayant droits. <br>
-  
- 
- <b>TITRE III :</b> DES ORGANES DE GESTION ET LEURS ATTRIBUTIONS <br>
- <b>Article 11 :</b> Structures de gestion <br>  
-  APRODEJ / GUINEE dispose des structures de gestion suivantes: <br>
- 1-l’Assemblée Générale  <br>
- 2-le Conseil d’Administration 3-le Commissariat aux Comptes <br>
- 4-Le bureau exécutif <br>
- A)-L’ ASSEMBLE  GENERALE <br>
- <b>Article 12 :</b> <br>
- L’assemblée générale est l’instance suprême Elle est de 3 types : <br>
- -l’Assemblée Générale Constitutive : qui se tient une fois dans la vie de l’ONG ; <br>
- - l’Assemblée Générale Ordinaire : elle a lieu une fois chaque année ;  <br>
- -l’Assemblée  Générale Extraordinaire : elle est convoquée au besoin, sur demande des 2/3 des membres de l’ONG   Conseil d’Administration pour résoudre des problèmes urgents de l’institution. <br>
- Article 13:Attributions de l’AG L’assemblée générale dispose les pouvoirs les plus étendus pour l’administration et la gestion de l’ONG qui sont notamment : <br>
-Définir les orientations à court, moyen et long terme ; <br>
-Adopter les statuts et le règlement intérieur et approuver leur modification ; <br>
-Elire les membres du Conseil d’Administration en son sein ; <br>
-Déterminer le mandat du Conseil d’Administration et Commissariat aux Comptes ; <br>
-Prononcer l’adhésion ou l’exclusion d’un membre ; <br>
-Prononcer la dissolution des organes exécutifs de l’ONG ; <br>
-Décider de la dissolution de l’ONG.  Article 14 : fréquences des sessions <br>  
-L’assemblée générale se réunit 1 fois par an. Le se CA  se réunit une fois par trimestre   Le BE se réunît une fois par  Mois.   <br>
-  
- B)- LE CONSEIL D’ADMINISTRATION <br>
- <b>Article 15 :</b> Le Conseil d’Administration est l’organe d’exécution des décisions issues de l’Assemblée Générale .Il est élu au scrutin secret pour une durée de 3 ans, renouvelable une fois. <br>
- Article 16 : Le Conseil d’Administration  est chargé de : <br>
- -	L’organisation et la coordination des activités inscrites dans les plans opérationnels  annuels élaborés et adoptés en Assemblée Générale ; 
- -	La coordination et le suivi de la mise en œuvre des activités planifiées ; 
- -	L’évaluation des résultats des activités et les performances de l’institution ; 
- -	La représentation de l’ONG auprès des tiers ; 
- -	La recherche de financement et le développement de partenariats. 
- -	Signer tous les actes engageant l’ONG, à ce titre, sa responsabilité est engagée dans toutes les pièces de dépenses ou de retrait de fonds ; 
-  
- <b>Article 17 :</b> Les attributions des membres du Conseil d’Administration <br>
- C- Le  bureau Exécutif : <br>
- Le bureau exécutif a les responsabilités suivantes : <br>
- Coordonner et superviser l’ensemble des activités de l’ONG; <br>
- Assurer la mise en œuvre de la politique générale de l’Institution ; <br>
- Préparer, convoquer et présider les réunions et les Assemblées Générales de l’ONG ;  veiller à l’application Correcte des décisions et recommandations issues de l’Assemblée Générale ; <br>
- Proposer une politique de gestion de l’ONG conformément aux statuts et la réglementation régissant les Organisations non Gouvernementales en République de Guinée ; <br>
- Soumettre pour adoption en assemblée générale, au besoin, les modifications à apporter sur les statuts et le Règlement intérieur ; <br>
- Faire modifier/ adopter les planifications annuelles et les budgets prévisionnels dont il est l’ordonnateur, Soumis en assemblée générale ; <br>
- Représenter l’ONG et ou se faire représenter partout ou besoin se fait sentir ; <br>
- En cas de divergences de point de vue entre les membres du CA, la voix du directeur  Exécutif est prépondérante. <br>
 
- 2)- Le responsable des projets et programmes : <br>
- Le responsable des projets et programmes est chargé de :   <br>
- La planification et de la mise en œuvre des activités de l’ONG ; <br>
- De l’élaboration des programmes d’activités et leur soumission lors des Assemblées Générales et réunions ; <br> 
- De faciliter et veiller à la réalisation correcte des activités planifiées ; <br>
- De la gestion du partenariat et du développement des relations extérieures ; <br>
- De produire des rapports périodiques des activités, assortis de recommandations précises permettant une prise de Décision en assemblée générale ou réunions ; <br>
- Il assure l’intérim en cas d’absence du directeur  Exécutif. <br>
-  
- 3)- Le responsable de la formation et du renforcement des capacités : <br>
- Le responsable de la formation et du renforcement des capacités est chargé : <br>
- D’identifier les besoins réels de formation et de renforcement des capacités institutionnelles ; <br>
- De planifier et organiser les sessions de formation ; <br>
- D’élaborer, au besoin, et défendre les programmes de formation à soumettre aux partenaires ; <br>
- Le participer activement à l’élaboration des modules de formation et produire les supports pédagogiques ; <br>
- De veuillez à la bonne utilisation des documents de l’ONG.  <br>
-  
- 5)- Le  Responsable Administratif et Financier : <br>
- Il est chargé de : <br>
- fournir toutes les informations liées aux aspects financier de l’ONG tant en réunions que lors des Assemblées Générales ; <br>
- Préparer le budget annuel et tenir la comptabilité ; <br>
- Assurer la tenue correcte des documents et des archives financiers de l’ONG ;  Se faire assister, au besoin d’un Comptable recruté par le Conseil d’Administration ; <br>
- Veiller aux payements des cotisations des membres ; <br>
- Il est cosignataire des documents bancaires. <br> 
- 
- 6)-Le chargé de suivi-évaluation : <br>
- Il doit : <br>
- Suivre et évaluer  le niveau de réalisation des activités ;  <br>
- Participer auprès des partenaires à l’élaboration des programmes et à l’évaluation des activités des projets ; <br>
- Diffuser les résultats de l’évaluation selon les objectifs contractuels de l’ONG auprès des partenaires et bénéficiaires ; <br>
- Organiser les séances de restitution (au besoin)  Produire les rapports synthèses de suivi des activités ; <br> 
- 7)-Partenariat et coopération : <br>
- Il est chargé de recherche de financement au sein de l’organisation <br>
- Le respect des différents contrats et convention avec les bailleurs <br>
- La mise en place des politiques de l’organisation à savoir : <br>
- Politique antifraude <br>
- Politique de protection des femmes et des enfants <br>
- Le respect du code de conduite <br>
- 8)- Le commissariat aux comptes : Il est composé comme suit : <br> 
- - Un président <br>
- - Un vice-président <br>
- - Un rapporteur <br>
- Le CC est l’organe de contrôle permanent interne de l’ONG. Il est chargé de contrôler le processus de recrutement, le processus de passation de marché et la gestion des ressources de l’organisation. Il est composé de trois membres qui sont élus pour un mandat de trois ans renouvelable une fois. Toute activité du CC est assujettie à la production d’un rapport présenté au CA. <br> 
-  
- -	Ils rendent compte de leurs activités pendant les sessions de l’assemblée en cas de nécessité.  Le commissariat aux comptes est chargé de :  <br>
- -	Effectuer des audits sur l’exécution du programme par le Conseil d’Administration ; <br>
- -	Vérifier l’exactitude des comptes financiers tenus par le Responsable Administratif et Financier ; <br>
- -	Veiller à la transparence des opérations comptables et au processus de passation des marchés (ou contrats) ;<br>
- <b>TITRE IV : </b>LES RESSOURCES FINANCIERES- DISPOSITIONS ET GESTION <br>
-<b>Article 19 : </b>du capital social et origines des ressources financières Le capital social souscrit provient des montants : <br>
-Issus des souscriptions des membres fondateurs ; <br>
-Des adhésions des membres définis dans l’article7des statuts. Les ressources de l’institution proviennent essentiellement: <br>
-des cotisations des membres  
-des frais d’adhésion ; 
-des subventions ; 
-des Assistances publiques ; 
-des bénéfices tirés des prestations de l’institution ; 
-des dons et legs des organismes publics et privés et des partenaires. 
-Article 20 : de l’ouverture de comptes bancaires 
-L’ONG-peut ouvrir des comptes dans l’une des institutions bancaires reconnues dans les régions de son implantation. 
-Article 21 : 
-Les ressources de l’institution sont affectées au financement des programmes d’activités approuvés et validés en assemblée générale. 
+            <!-- STATUTS -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="p-4  rounded shadow-sm mb-5" style="text-align: justify;">
+                        <h4 class="mt-4">TITRE I : CONSTITUTION - DÉNOMINATION - SIEGE SOCIAL - DUREE - OBJECTIFS ET DOMAINES D'INTERVENTION</h4>
+                        
+                        <p><b>Article 1 : Constitution</b><br>
+                        Les adhérents aux présents statuts constituent les membres de l’ONG conformément à la loi L/2005/013/AN de l’Assemblée Nationale du 4 juillet 2005 adoptant et promulguant la loi fixant le régime des Associations en République de Guinée.<br>
+                        <b>APRODEJ/GUINEE</b> est une organisation non gouvernementale, apolitique et non confessionnelle.</p>
 
-Article 22 : 
-Les décaissements de fonds sont objets de double signature  Ces signataires sont le président,  le trésorier  et le vice-président. 
-Toutefois, le Directeur Exécutif est l’ordonnateur des dépenses. A son absence elles sont ordonnées par son intérimaire. 
+                        <p><b>Article 2 : Dénomination</b><br>
+                        L’ONG prend la dénomination APRODEJ/GUINEE (Association pour la Promotion et le Développement de l’Entrepreneuriat des Jeunes). Tous les actes et documents de l’institution porteront cette dénomination.</p>
 
-Article 23 : 
-Le Conseil d’Administration fournit un rapport financier annuel et un bilan d’exécution des programmes et activités adoptés en assemblée générale. 
-TITRE V : LA REVISION DES STATUTS, LE REGLEMENT INTERIEUR, 
-L’AFFILIATION  ET LA DISSOLUTION  
-Article 24: La révision et fusion  
-Les statuts et règlement intérieur peuvent être révisés en assemblée générale, à la majorité des 2/3 des membres. 
-La décision de l’affiliation à une ou plusieurs organisations ayant des objectifs similaires est prise en assemblée générale dans les conditions définies par la loi. 
+                        <p><b>Article 3 : Siège social</b><br>
+                        L’OSC a son siège social à Labé (Quartier Pounthioun, Secteur N’Djolou, Commune Urbaine de Labé) en République de Guinée. Il peut être transféré sur toute l’étendue du territoire national et peut disposer des antennes partout ou besoin sera sur décision de l’assemblée générale.</p>
 
-Article 25 : Dissolution et affectation des biens  
-La dissolution est prononcée en assemblée générale à la majorité des 2/3 des membres. En cas de dissolution, l’Assemblée Générale désigne une commission chargée d’inventorier et d’affecter les biens de l’ONG à autres organisations poursuivant des objectifs similaires. La liquidation se fera conformément à la loi en vigueur. 
-En aucun cas, le patrimoine de l’ONG ne peut faire objet de partage entres les membres du Conseil d’Administration. Il est et demeure un patrimoine de l’institution dont seule l’assemblée générale peut en décider du sort. 
+                        <p><b>Article 4 : Durée</b><br>
+                        La durée de l’institution est illimitée.</p>
 
-                </p>
+                        <p><b>Article 5 : Objectifs</b><br>
+                        <b>- Objectif global :</b><br>
+                        L’objectif global est d’appuyer les communautés à la base pour un développement économique social durable et la protection des droits humains.<br>
+                        <b>- Objectifs spécifiques :</b><br>
+                        1. Promouvoir l’entrepreneuriat en faveur des associations de jeunes et des groupements à travers des sessions de formation en esprit et gestion d’entreprise et les appuis conseils.<br>
+                        2. Faire des plaidoyers pour l’implication des jeunes dans les instances de prise de décision et promouvoir la protection des droits des femmes et des enfants.<br>
+                        3. Appuyer les OSC (groupements, coopératives, associations et leurs structures faîtières) pour une bonne gouvernance locale et l’autopromotion avec prise en compte du principe de l’égalité homme-femme et de l’aspect genre.<br>
+                        4. Améliorer la qualité des services relatifs à la santé de la reproduction.<br>
+                        <b>Mandat :</b> Appuyer les communautés à la base pour un développement économique social durable, la protection des droits humains par la promotion des comportements favorables à la santé y compris la référence et la promotion de l'utilisation des services intégrés de Santé de la reproduction (Santé Maternelle, néonatale et infantile).<br>
+                        <b>Mission :</b><br>
+                        - Appuyer les OSC pour une bonne gouvernance locale et l’autopromotion avec prise en compte du genre.<br>
+                        - Améliorer la qualité des services relatifs à la santé de la reproduction.<br>
+                        - Appuyer les personnes vulnérables (femmes, jeunes, personnes vivant avec handicap) dans les communautés.<br>
+                        <b>Vision :</b> La promotion de l'utilisation des services intégrés de Santé de la reproduction, de la Planification familiale, et la prévention de la Violence Basée sur le Genre (VBG) au niveau communautaire.<br>
+                        <b>Statut juridique légal :</b> Organisation Non Gouvernementale (ONG).</p>
 
+                        <p><b>Article 6 : Domaines d’intervention</b><br>
+                        Les domaines d’intervention sont : Citoyenneté et entrepreneuriat ; Droits humains (VBG/MGF, protection fille/femme) ; Santé (IST/VIH/SIDA, malnutrition) ; Gouvernance locale ; Education ; Environnement ; Agriculture familiale ; Activité économique (AGR).<br>
+                        <b>1. Développement local (Bonne gouvernance) :</b><br>
+                        - Formation des élus locaux et associations de jeunesses.<br>
+                        - Promouvoir les bonnes pratiques relatives à la gestion transparente des ressources.<br>
+                        - Appuyer les décideurs politiques pour des politiques adaptées.<br>
+                        - Appui à l’élaboration des PDL et PAI.<br>
+                        - Appuyer techniquement les communautés et les services techniques de l’État.<br>
+                        <b>2. Équité et genre :</b><br>
+                        - Favoriser l’implication des couches vulnérables (notamment les femmes).<br>
+                        - Promouvoir l’intégration des femmes et des jeunes.<br>
+                        - Promouvoir l’équité.<br>
+                        <b>3. Infrastructures et équipements sociaux de base :</b><br>
+                        - Appuyer les communautés dans la réalisation d’infrastructures de base.<br>
+                        - Faciliter l’accès à des technologies adaptées.<br>
+                        - Participer à la pérennisation des acquis des projets.</p>
+
+                        <h4 class="mt-4">TITRE II : ADHESION, DROITS ET DEVOIRS DES MEMBRES - PERTE DE LA QUALITE</h4>
+
+                        <p><b>Article 7 : Adhésion</b><br>
+                        Est membre toute personne ayant une aptitude physique et morale qui : adhère aux présents statuts ; paie son droit d’adhésion (100 000 GNF) ; paie ses cotisations ; exerce des tâches allant dans le sens de l’atteinte des objectifs.</p>
+
+                        <p><b>Article 8 : Droits et devoirs</b><br>
+                        <b>1. Droits :</b> Badge de membre ; participer aux activités ; bénéficier des avantages ; élire et être élu ; être informé ; démissionner librement.<br>
+                        <b>2. Devoirs :</b> Se conformer aux dispositions légales ; assister aux réunions ; favoriser la cohésion sociale ; développer des activités bénévoles ; s’acquitter des cotisations mensuelles (20 000 GNF) ; participer pleinement aux activités.</p>
+
+                        <p><b>Article 9 : Ressources financières</b><br>
+                        Cotisations ; droits d’adhésion ; subventions (État, collectivités, partenaires) ; ressources propres ; emprunts ; dons et legs ; autres ressources licites.</p>
+
+                        <p><b>Article 10 : Gestion des ressources</b><br>
+                        Les ressources demeurent les biens de l’institution. Chaque membre doit veiller à leur bon usage.</p>
+
+                        <p><b>Article 11 : Représentation et signature</b><br>
+                        L’ONG est représentée par un membre du CA ou tout membre muni d’ordre de mission.<br>
+                        - Contrats, conventions, ordres de mission : signature du président, vice-président et directeur exécutif.<br>
+                        - Opérations bancaires : deux signataires (président, trésorier et/ou comptable).<br>
+                        Le Directeur Exécutif est l’ordonnateur des dépenses.</p>
+
+                        <h4 class=" mt-4">TITRE III : STRUCTURES ET FONCTIONNEMENT</h4>
+
+                        <p><b>Article 12 : Instances</b><br>
+                        Assemblée Générale Ordinaire (AG) ; Assemblée Générale Extraordinaire ; réunions du conseil d’administration.<br>
+                        Organes : conseil d’administration ; bureau exécutif ; commissions techniques ; commissariat aux comptes.</p>
+
+                        <p><b>Article 13 : Assemblée Générale</b><br>
+                        Organe suprême. Adopte et modifie les statuts. Convoquée une fois par an par le président du CA. Session extraordinaire sur demande des 2/3 des membres.</p>
+
+                        <p><b>Article 14 : Conseil d’Administration (CA)</b><br>
+                        Composé de : Président, Vice-président, Trésorier, Chargé de formation, Chargé de suivi-évaluation, Chargé de communication/information, Chargé de programme et projet, Genre et inclusion sociale, Partenariat et coopération.<br>
+                        Convoqué quatre fois par an. Mandat de trois ans renouvelable.</p>
+
+                        <p><b>Article 15 : Attributions du bureau Exécutif et du CC</b><br>
+                        <b>a) Bureau exécutif :</b> Directeur Exécutif, Secrétaire, Chargé de suivi-évaluation, Chargé de formation.<br>
+                        Missions : exécuter les décisions du CA ; élaborer plans d’action et budgets ; appuyer le montage des projets ; mobiliser des ressources ; préparer les conventions.<br>
+                        <b>b) Commissariat aux comptes :</b> Président, Vice-président, Rapporteur. Contrôle interne permanent (recrutement, passation de marchés, gestion des ressources). Mandat de trois ans renouvelable une fois.<br>
+                        <b>c) Ouverture et gestion de compte :</b> PV établi pour le choix des signataires. Deux signatures obligatoires (Président + un autre signataire).</p>
+
+                        <h4 class="mt-4">TITRE IV : DISPOSITIONS GENERALES</h4>
+
+                        <p><b>Article 16 : Modifications</b><br>
+                        Les statuts et règlement intérieur ne peuvent être modifiés qu’en assemblée générale.</p>
+
+                        <p><b>Article 17 : Résolution des conflits</b><br>
+                        Le bureau exécutif résout les conflits à l’amiable. En cas d’échec, saisine du CA, puis des juridictions compétentes.</p>
+
+                        <p><b>Article 18 : Perte de la qualité de membre</b><br>
+                        Par démission, exclusion, dissolution de l’ONG, décès.<br>
+                        <b>Démission :</b> Lettre motivée au CA.<br>
+                        <b>Exclusion :</b> Non-paiement des cotisations après deux rappels restés sans effet dans un délai de quatre mois.</p>
+
+                        <p><b>Article 19 : Modification des Statuts</b><br>
+                        L’AG est convoquée à la demande de la majorité (2/3) des membres, 15 jours francs avant la date fixée.</p>
+
+                        <p><b>Article 20 : Dissolution et liquidation</b><br>
+                        Acceptée par le CA à la demande des 3/4 des membres. Dissolution prononcée par vote au scrutin secret. Liquidation par un membre désigné par le CA.</p>
+
+                        <p><b>Article 21 : Règlement Intérieur</b><br>
+                        Pour tout ce qui n’est pas prévu, un règlement intérieur est établi et adopté en AG.</p>
+
+                      
+                    </div>
+                </div>
             </div>
-        </div>
 
-                </p>
-              
+            <!-- REGLEMENT INTERIEUR -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="p-4 rounded shadow-sm" style="text-align: justify;">
+                        <h3 class="text-center text-primary fw-bold">REGLEMENT INTERIEUR</h3>
+                        
+                        <h4 class="mt-4">PREAMBULE</h4>
+                        <p>Le présent règlement intérieur complète et précise les dispositions des statuts. Il est applicable aux adhérents actuels et futurs de l’ONG APRODEJ/GUINEE. Tout membre a obligation de se soumettre et d’appliquer le présent règlement.</p>
+
+                        <h4 class=" mt-4">TITRE I : DE L’ETABLISSEMENT</h4>
+                        <p><b>Article 1 :</b> Le présent règlement intérieur complète les statuts et définit les modalités d’organisation et de fonctionnement. Adopté à Labé le 15/01/2022.</p>
+                        <p><b>Article 2 :</b> Le respect du règlement intérieur est obligatoire. Des copies sont disponibles au siège.</p>
+
+                        <h4 class="mt-4">TITRE II : DES ADHESIONS</h4>
+                        <p><b>Article 3 :</b> Est membre toute personne qui adhère aux statuts et s’acquitte de ses obligations. Procédure : demande au président, copie du diplôme et CV, accord en AG, versement de 100 000 GNF.</p>
+                        <p><b>Article 4 : Membres fondateurs :</b> Toute personne ayant participé à la première réunion constitutive.</p>
+                        <p><b>Article 5 : Droits :</b> Assister aux AG, prendre la parole, élire et être élu, participer aux activités, être informé.</p>
+                        <p><b>Article 6 : Obligations :</b> Se conformer aux dispositions, assister aux réunions, participer aux activités, payer les cotisations, contribuer aux objectifs, veiller à l’image de l’ONG.</p>
+                        <p><b>Article 7 : Sanctions :</b> Avertissement, blâme, perte temporaire (30 jours), suspension (1 an), expulsion.</p>
+                        <p><b>Article 8 : Exclusion :</b> Prononcée en AG pour non-respect des statuts, détournement, refus de payer, absences notoires.</p>
+                        <p><b>Article 9 : Démission :</b> Par écrit au CA qui rend compte à l’AG.</p>
+                        <p><b>Article 10 : Décès/maladies :</b> Intérimaire désigné par le CA en attendant une élection partielle.</p>
+
+                        <h4 class=" mt-4">TITRE III : DES ORGANES DE GESTION ET LEURS ATTRIBUTIONS</h4>
+                        <p><b>Article 11 : Structures de gestion :</b> Assemblée Générale, Conseil d’Administration, Commissariat aux Comptes, Bureau exécutif.</p>
+                        <p><b>Article 12 : Types d’AG :</b> Constitutive (une fois), Ordinaire (1 fois/an), Extraordinaire (sur demande des 2/3 des membres).</p>
+                        <p><b>Article 13 : Attributions de l’AG :</b> Définir les orientations, adopter les statuts, élire les membres du CA, prononcer l’exclusion ou la dissolution.</p>
+                        <p><b>Article 14 : Fréquences :</b> AG 1 fois/an, CA 1 fois/trimestre, BE 1 fois/trimestre.</p>
+                        <p><b>Article 15 : CA :</b> Élu au scrutin secret pour 3 ans renouvelable.</p>
+                        <p><b>Article 16 : Missions du CA :</b> Organisation, coordination, suivi, évaluation, représentation, recherche de financement.</p>
+                        <p><b>Article 17 : Attributions des membres :</b></p>
+                        <p><b>Président :</b> Définit les orientations, représente l’ONG, veille au bon fonctionnement, préside les réunions.<br>
+                        <b>Vice-Président :</b> Remplace le président, participe aux orientations.<br>
+                        <b>Responsable des projets et programmes :</b> Planification, mise en œuvre, gestion des partenariats.<br>
+                        <b>Responsable de la formation :</b> Identification des besoins, organisation des sessions.<br>
+                        <b>Responsable Administratif et Financier :</b> Tient la comptabilité, prépare le budget.<br>
+                        <b>Chargé de suivi-évaluation :</b> Suivi et évaluation des activités.<br>
+                        <b>Chargé du genre et de l’inclusion :</b> Intégration du genre, lutte contre les discriminations.<br>
+                        <b>Chargé de communication :</b> Stratégie de communication, gestion des réseaux sociaux.<br>
+                        <b>Chargé de partenariats :</b> Recherche de nouveaux partenaires, suivi des partenariats.</p>
+
+                        <h4 class=" mt-4">TITRE IV : RESSOURCES FINANCIERES - DISPOSITIONS ET GESTION</h4>
+                        <p><b>Article 19 : Capital social :</b> Souscriptions des membres fondateurs, adhésions. Ressources : cotisations, frais d’adhésion, subventions, dons.</p>
+                        <p><b>Article 20 : Comptes bancaires :</b> L’ONG peut ouvrir des comptes dans des institutions bancaires reconnues.</p>
+                        <p><b>Article 21 :</b> Les ressources sont affectées aux programmes approuvés par l’AG.</p>
+                        <p><b>Article 22 : Décaissements :</b> Double signature (président, trésorier et/ou comptable). Le Président est l’ordonnateur des dépenses.</p>
+                        <p><b>Article 23 :</b> Le CA fournit un rapport financier annuel et un bilan d’exécution.</p>
+
+                        <h4 class=" mt-4">TITRE V : REVISION DES STATUTS, REGLEMENT INTERIEUR, AFFILIATION ET DISSOLUTION</h4>
+                        <p><b>Article 24 : Révision et fusion :</b> Révision possible en AG à la majorité des 2/3 des membres.</p>
+                        <p><b>Article 25 : Dissolution :</b> Prononcée en AG à la majorité des 2/3. Les biens sont affectés à d’autres organisations poursuivant des objectifs similaires.</p>
+
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-12" style="min-height: 500px;">
-            <h3 class="fw-bold text-primary text-uppercase"> Projets réalisés  </h3>
-            <h3 class="mb-0">Entre 2012-2024 </h3>
-                <div class="position-relative h-100">
-                    <table>
 
-      
-                        <tr> <th>ACTIVITÉS RÉALISÉES</th> 
-                            <th>PARTENAIRES</th> 
-                            <th>MONTANT <br>DE  LA SUBVENTION</th>
-                             <th>PÉRIODE</th>
-                             </tr>
-                        
-                        <tr> 
-                                <th style="">  « Projet Transfrontalier pour l’Abandon des Mutilations Génitales Féminines/Excisions (MGF/E)       
-                                            et   l’Autonomisation de la Femme (PTA-MGF/E/AF )» en Guinée et en Guinée Bissau.
-                                        Mise en place et accompagnement de 66 Groupements d’Epargne et de Crédits sur les Activités Génératrices des Revenus (Culture du riz, du maïs et de l’oignon).
-                                        Sensibilisation des communautés sur le respect des droits des filles/femmes et la lutte contre les VBG.
-                                </th>
-                                 <th>Ministère Fédérale de la Coopération Economique et du Développement Allemand et Plan International</th> 
-                                 <th>814.500,61</th> 
-                                <th>Décembre 2021 Décembre 2024</th>
-                         </tr>
-                         <tr> 
-                            <th style=""> 
-                                Projet de mobilisation communautaire pour la prévention et la réduction et des VBG dans la région de Mamou et Labé.
-                        Accompagnement du Centre d’Autonomisation et de la Promotion des Femmes (CAPF) de Labé pour la réinsertion socioprofessionnelle de 30 jeunes filles (15-24ans).
-                        
-                        
-                            </th>
-                             <th>L’ambassade de France en Guinée et en Sierra-Leone </th> 
-                             <th>471 642 495</th> 
-                            <th>  Juillet 2021- Juin 2022</th>
-                        </tr>
-                        
-                        <tr> 
-                            <th style="">
-                                Intitulé du projet : Société Civile pour l’Autopromotion  Féminine et de l’emploi des Jeunes
-                                Participer à l’identification des 100 jeunes bénéficiaires des travaux HIMO (Haute d’Intensité de Mains Œuvre) ;
-                                Assurer la mise en place et le fonctionnement effectif des 20 Groupements d’épargne et de crédit  à travers les activités agricoles ;
-                                Organiser et animer des séances de sensibilisation des communautés sur la protection des têtes de sources, le nettoyage des lits des cours d’eau, la régénération naturelles des forêts dans la commune rurale de Dionfo, Préfecture de Labé.
-                                
-                            </th>
-                             <th>PLAN INTERNATIONAL/  Délégation de l’UE </th> 
-                             <th>206 969 130</th> 
-                            <th>  Mars 2020 Février  2022
-                                </th>
-                        </tr>
-                        
-                        <tr> 
-                            <th style="">  
-                                Sensibilisation des populations sur « la restauration de 10 têtes de cours d’eau, 10 têtes de sources, du couverts végétal, le reboisement des zones dénudées, la vulgarisation du code forestier, l’information, l’éducation sur la Gestion des Ressources Naturelles (GRN), les conséquences néfastes des feux de brousses et la carbonisation dans les districts de Kouraba, Daralabé centre, Gaya, Fello-Bantan, Darakéthioun et Madina n’diré » de Juillet à Décembre 2021 dans le cadre de l’actualisation du Plan de Développement Local de la Commune.		
-                            </th>
-                             <th>Commune rurale de Daralabé</th> 
-                             <th>	31 000 000 </th> 
-                            <th> Juillet à Décembre 2021</th>
-                        </tr>
-                        
-                        <tr> 
-                            <th style=""> 
-                                Accélérer l’abandon des pratiques néfastes de l’excision et du mariage précoce forcé en Moyenne Guinée.
-                                Mise en place et accompagnement de 5 Groupements d’Epargnes et de Crédits des communes de Popodara, Kouramangui, Tountouroun, Noussy et Kalan, Préfecture de Labé.
-                                
-                            </th>
-                             <th>Délégation de l’UE</th> 
-                             <th>	190 000 EURO  </th> 
-                            <th> Janvier 2020 Janvier 2021</th>
-                        </tr>
-                        
-                        <tr> 
-                            <th style="">  
-                                Diagnostic communal sur l’assainissement et les ressources naturelles (gestion des déchets, latrinisation, cours d’eau et forêt communautaires) dans les 28 quartiers de la commune urbaine de Labé
-                                Répertorier et faire l’état des lieux des latrines publiques au niveau de la commune Urbaine de Labé (marché, gares routières, écoles publiques et structures sanitaires, services publiques et prison civile) ;
-                        
-                            </th>
-                             <th> Commune Urbaine de Labé/ ONG Partenariat</th> 
-                             <th>	50 966 000  </th> 
-                            <th> Du 22 Décembre 2020 au 22 Mars 2021</th>
-                        </tr>
-                        
-                        <tr> 
-                            <th style="">  
-                                Production et commercialisation d’un hectare (1ha) de pomme de terre dans la commune rurale de Kouramangui (Plan d’affaire de l’ONG APRODEJ-Guinée)
-                            </th>
-                             <th>PLAN Guinée</th> 
-                             <th>	80 000 000 GNF  </th> 
-                            <th>Janvier à Mai 2019</th>
-                        </tr>
-                        
-                        <tr> 
-                            <th style=""> 
-                                Projet de Renforcement des OSC pour la Création d’Emploi Durables(ROCED)  en Guinée en faveur des jeunes (garçons  et filles) et personnes vulnérables contres l’émigration  clandestine  dans la commune rurale de Kouramangui, Préfecture de Labé
-                        15goupements créé dont 8 appuyés dans les activités génératrices de revenus (agriculture, artisanat…)
-                        
-                            </th>
-                             <th>PLAN GUINEE/ UE</th> 
-                             <th>	358 134 872  GNF   </th> 
-                            <th>Janvier 2018 à Décembre  2018</th>
-                        </tr>
-                        
-                        <tr> 
-                            <th style=""> 
-                                Nettoyage d’ordures Ménages sur 800M2 et Curages des Caniveaux des quartiers Mosquée sur environ 1200 ml en faveur de 150 personnes vulnérables dans la Commune Urbaine de Labé	
-                        
-                            </th>
-                            <th>PROJET DE FILETS SOCIAUX PRODUCTIFS		  </th>
-                             <th> 244 643  033  GNF </th>  
-                             <th>	 Aout  2014   </th> 
-                            
-                        </tr>
-                        
-                        <tr> 
-                            <th style="">
-                                Institutionnalisation  du contrôle citoyen du secteur de l’Education de  la Région Administrative de Labé
-                                Financement en consortium (AVODDEC, APRODEJ / GUINEE, OGEV / TOUGUE, LANSA/MALI, INSTITUT DEL/ LABE)
-                                
-                        
-                            </th>
-                            <th>PROJEG
-                                250 179 375 GNF
-                                      </th>
-                             <th> 250 179 375 GNF </th>  
-                             <th>	 Décembre 2012 à Décembre 2013   </th> 
-                            
-                        </tr>
-                        
+            <!-- Projets réalisés -->
+            <div class="row mt-5">
+                <div class="col-lg-12" style="min-height: 500px;">
+                    <h3 class="fw-bold text-primary text-uppercase text-center">Projets réalisés</h3>
+                    <h3 class="mb-4 text-center">Entre 2012-2026</h3>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th>ACTIVITÉS RÉALISÉES</th>
+                                    <th>PARTENAIRES</th>
+                                    <th>PÉRIODE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- NOUVEAUX PROJETS AJOUTÉS (sans montants) -->
+                                <tr>
+                                    <td>Projet d'appui aux droits et à la santé sexuelle et reproductive (DSSR/PF) des adolescent.e.s dans la Région de Boké</td>
+                                    <td>Expertise France</td>
+                                    <td>01/01/2026 au 31/12/2026</td>
+                                </tr>
+                                <tr>
+                                    <td>Renforcement de l'Autonomisation des Filles/Femmes de Bambaya en Maraichage et en Pisciculture</td>
+                                    <td>La Francophonie</td>
+                                    <td>01/09/2025 au 31/09/2027</td>
+                                </tr>
+                                <tr>
+                                    <td>Contribuer à l'abandon des Mutilations Génitales Féminine et le Mariage d'Enfants dans la Région de Boké</td>
+                                    <td>UNICEF</td>
+                                    <td>01/05/2024 au 31/03/2026</td>
+                                </tr>
+                                <!-- Projet Transfrontalier -->
+                                <tr>
+                                    <td>« Projet Transfrontalier pour l’Abandon des Mutilations Génitales Féminines/Excisions (MGF/E) et l’Autonomisation de la Femme (PTA-MGF/E/AF) » en Guinée et en Guinée Bissau. Mise en place et accompagnement de 66 Groupements d’Epargne et de Crédits sur les Activités Génératrices des Revenus (Culture du riz, du maïs et de l’oignon). Sensibilisation des communautés sur le respect des droits des filles/femmes et la lutte contre les VBG.</td>
+                                    <td>Ministère Fédérale de la Coopération Economique et du Développement Allemand et Plan International</td>
+                                    <td>Décembre 2021 - Décembre 2024</td>
+                                </tr>
+                                <!-- Projet VBG Mamou et Labé -->
+                                <tr>
+                                    <td>Projet de mobilisation communautaire pour la prévention et la réduction des VBG dans la région de Mamou et Labé. Accompagnement du Centre d’Autonomisation et de la Promotion des Femmes (CAPF) de Labé pour la réinsertion socioprofessionnelle de 30 jeunes filles (15-24 ans).</td>
+                                    <td>L’ambassade de France en Guinée et en Sierra-Leone</td>
+                                    <td>Juillet 2021 - Juin 2022</td>
+                                </tr>
+                                <!-- Projet Société Civile -->
+                                <tr>
+                                    <td>Société Civile pour l’Autopromotion Féminine et de l’emploi des Jeunes : identification de 100 jeunes bénéficiaires des travaux HIMO, mise en place de 20 Groupements d’épargne et de crédit, sensibilisation sur la protection des têtes de sources et la régénération des forêts dans la commune rurale de Dionfo (Labé).</td>
+                                    <td>PLAN INTERNATIONAL / Délégation de l’UE</td>
+                                    <td>Mars 2020 - Février 2022</td>
+                                </tr>
+                                <!-- Projet Daralabé -->
+                                <tr>
+                                    <td>Sensibilisation sur la restauration de cours d’eau, reboisement, vulgarisation du code forestier, lutte contre les feux de brousse dans les districts de Kouraba, Daralabé centre, Gaya, etc. (Actualisation du PDL).</td>
+                                    <td>Commune rurale de Daralabé</td>
+                                    <td>Juillet à Décembre 2021</td>
+                                </tr>
+                                <!-- Projet excision et mariage précoce -->
+                                <tr>
+                                    <td>Accélérer l’abandon des pratiques néfastes de l’excision et du mariage précoce forcé en Moyenne Guinée. Mise en place de 5 Groupements d’Epargne et de Crédits (Popodara, Kouramangui, Tountouroun, Noussy, Kalan).</td>
+                                    <td>Délégation de l’UE</td>
+                                    <td>Janvier 2020 - Janvier 2021</td>
+                                </tr>
+                                <!-- Diagnostic communal -->
+                                <tr>
+                                    <td>Diagnostic communal sur l’assainissement et les ressources naturelles (gestion des déchets, latrinisation, cours d’eau, forêts) dans les 28 quartiers de Labé. État des lieux des latrines publiques.</td>
+                                    <td>Commune Urbaine de Labé / ONG Partenariat</td>
+                                    <td>22 Décembre 2020 - 22 Mars 2021</td>
+                                </tr>
+                                <!-- Production pomme de terre -->
+                                <tr>
+                                    <td>Production et commercialisation d’un hectare de pomme de terre dans la commune rurale de Kouramangui (Plan d’affaire de l’ONG).</td>
+                                    <td>PLAN Guinée</td>
+                                    <td>Janvier à Mai 2019</td>
+                                </tr>
+                                <!-- Projet ROCED -->
+                                <tr>
+                                    <td>Projet de Renforcement des OSC pour la Création d’Emplois Durables (ROCED) - Formation de 15 groupements, appui à 8 dans les AGR (agriculture, artisanat).</td>
+                                    <td>PLAN GUINEE / UE</td>
+                                    <td>Janvier 2018 - Décembre 2018</td>
+                                </tr>
+                                <!-- Nettoyage ordures -->
+                                <tr>
+                                    <td>Nettoyage d’ordures ménagères sur 800m² et curage des caniveaux (1200 ml) pour 150 personnes vulnérables à Labé.</td>
+                                    <td>Projet de Filets Sociaux Productifs</td>
+                                    <td>Août 2014</td>
+                                </tr>
+                                <!-- Contrôle citoyen éducation -->
+                                <tr>
+                                    <td>Institutionnalisation du contrôle citoyen du secteur de l’Éducation de la région de Labé (consortium AVODDEC, APRODEJ, OGEV, LANSA, INSTITUT DEL).</td>
+                                    <td>PROJEG</td>
+                                    <td>Décembre 2012 - Décembre 2013</td>
+                                </tr>
+                            </tbody>
                         </table>
-        </div>
-    </div>
-    <!-- Contact End -->
-
-
-    <!-- Vendor Start -->
-     <br>
-    <h5 class="container text-center">Projet UNICEF Bureau de BOKE</h5>
-          <div>
-            <img src="img/contact APRODEJ.jpg" alt="">
-          </div>  
-
-   <!-- Vendor End -->
-
-   <div class="container py-5 mb-5">
-            <marquee behavior="" direction="">
-             <h3 class="text-center">Suivez-nous sur les réseaux sociaux</h3></marquee>
-            <div class="container-fluid bg-white ">
-                <div class="row container text-center">
-                   
-                    <figure class="col">
-                        <img src="img/icon_reseaux_sociaux/linkedin.gif" alt=""          style="width:100%; ">
-                    </figure>
-
-                    <figure class="col">
-                        <img src="img/icon_reseaux_sociaux/twitter.gif" alt=""           style="width:100%; ">
-                    </figure>
-
-                    <figure class="col">
-                       <img src="img/icon_reseaux_sociaux/instagram.gif" alt=""          style="width:100%; ">
-                    </figure>
-
-                    <figure class="col">
-                       <img src="img/icon_reseaux_sociaux/télégramme-app.gif" alt=""     style="width:100%; ">
-                    </figure>
-                    <figure class="col">
-                        <img src="img/icon_reseaux_sociaux/whatsapp.gif" alt=""          style="width:100%; ">
-                    </figure>       
-                    <figure class="col">
-                        <img src="img/icon_reseaux_sociaux/faceboo.gif" alt=""           style="width:100%; ">
-                    </figure>
-                    <figure class="col">
-                        <img src="img/icon_reseaux_sociaux/messenger.gif" alt=""         style="width:100%; ">
-                    </figure>
-                    <figure class="col">
-                        <img src="img/icon_reseaux_sociaux/gmail.gif" alt=""             style="width:100%;">
-                    </figure>
-                    <figure class="col">
-                        <img src="img/icon_reseaux_sociaux/youtube-48.gif" alt=""        style="width:100%; ">
-                    </figure>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Contact End -->
 
     
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s w-100">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                        <a href="index.php" class="navbar-brand">
+                            <h3 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>APRODEJ-GUINEE</h3>
+                        </a>
+                         <p class="mt-3 mb-4">ASSOCIATION LA PROMOTION ET LE DÉVELOPPEMENT DE L’ENTREPREUNARIAT ET JEUNESSE ONG DE PROTECTION DES DROITS HUMAINS ET DE L’ENVIRONNEMENT.
+                            <br> 
+                             <br>
+                           <em> Le soutien des enfants, jeunes et les personnes vulnerables</em></p>
+                      
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row gx-5">
+                        <div class="col-lg-5 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Contact</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">
+                                    <a href="https://www.google.com/maps/place/ONG+APRODEJ/@11.315768,-12.2951546,17z/data=!4m14!1m7!3m6!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!2sONG+APRODEJ!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0!3m5!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0">Labé, Guinée Conakry</a></p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <p class="mb-0"> <a href="https://mail.google.com/mail/u/0/"> aprodejlabe2007@gmail.com</a> </p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                              <p class="mb-0"> +224 622 515 869</p>
+                            </div>
+                        
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="https://www.facebook.com/profile.php?id=100063629130970&mibextid=ZbWKwL"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Liens rapides</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="index.php"><i class="bi bi-arrow-right text-primary me-2"></i>Accueil</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Apropos</a>
+                                <a class="text-light mb-2" href="apropos.php"><i class="bi bi-arrow-right text-primary me-2"></i>Nos Projets</a>
+                                <a class="text-light mb-2" href="projets.php"><i class="bi bi-arrow-right text-primary me-2"></i>Notre Equipe</a>
+                               
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contactez-nous</a>
+                            </div>
+                        </div>
+                       <div class="col-lg-3 col-md-12 pt-0 pt-lg-5 mb-5">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="text-light mb-0">Partenaires</h3>
+                        </div>
+
+                        <div class="row g-2 text-center">
+                            <div class="col-6">
+                                <img src="img/unicef.png" alt="UNICEF" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/logo-union-europeenne.jpg" alt="Union Européenne" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/logo_coop.4ba0e51e9185.png" alt="Coopération" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/AFD.jfif" alt="AFD" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/france.png" alt="France" class="img-fluid bg-white p-1 rounded">
+                            </div>
+
+                            <div class="col-6">
+                                <img src="img/Expertise france.png" alt="Expertise France" class="img-fluid bg-white p-1 rounded">
+                            </div>
+                        </div>
+                    </div>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white w-100" style="background: #061429; ">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">&copy;2023 <a class="text-white border-bottom" href="index.php" style="font-size: 15px;">aprodejguinee.org</a>
+						
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="index.html" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
