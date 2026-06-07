@@ -156,6 +156,68 @@
     <hr>
     <br>
     <!-- Fin projet DSSR -->
+     <!-- Début projet Francophonie -->
+        <h1 class="fw-bold text-primary text-uppercase text-center">Renforcement de l'Autonomisation des Filles/Femmes de Bambaya</h1>
+        <h2 class="mb-0 text-center">en Maraichage et en Pisciculture</h2>
+        <br>
+        <img src="img/projet_francophonie/6.jpeg" style="border-radius: 5px;" alt="" width="100%"> " alt="Projet Francophonie">
+        <br>
+        <br>
+        <div class="row col-12" style="text-align: justify;">
+            <div class="">
+                <h4 style="text-align: justify;"><i>Financement :</i> <b class="text-primary">Organisation Internationale de la Francophonie (OIF)</b></h4>
+                <h5 style="text-align: justify;"><b>Ministère Tutelle :</b> Ministère de l'Agriculture et de l'Élevage</h5>
+                <h5 style="text-align: justify;"><b>Mise en œuvre :</b> ONG Association pour la Promotion et le Développement de l'Entrepreneuriat Jeunesse (<b>APRODEJ</b>) à Bambaya.</h5>
+                <h5 style="text-align: justify;"><b>Zone de couverture :</b> Commune rurale de Bambaya, Préfecture de Labé</h5>
+                <h5 style="text-align: justify;"><b>Durée :</b> 24 mois : 01 Septembre 2025 – 31 Août 2027</h5>
+                <h5 style="text-align: justify;"><b>Secteur :</b> Autonomisation des femmes / Agriculture / Pisciculture</h5>
+                
+                <h3 style="text-align: justify;"><b>Bénéficiaires finaux</b></h3>
+                <h5 style="text-align: justify;"><b>Total :</b> 300 femmes directement touchées</h5>
+                <ul>
+                    <li>Filles/femmes en situation de vulnérabilité : <b>250</b></li>
+                    <li>Jeunes filles déscolarisées : <b>50</b></li>
+                    <li>Bénéficiaires indirects (ménages) : <b>environ 1 500 personnes</b></li>
+                </ul>
+                
+                <h3 style="text-align: justify;"><b>Objectif général</b></h3>
+                <h5 style="text-align: justify;">Contribuer à l'autonomisation économique et sociale des filles et femmes de la commune rurale de Bambaya à travers le développement des activités génératrices de revenus en maraichage et en pisciculture</h5>
+                
+                <h3 style="text-align: justify;"><b>Objectifs spécifiques</b></h3>
+                <ul>
+                    <li>Renforcer les capacités techniques et entrepreneuriales des filles/femmes en maraichage et en pisciculture</li>
+                    <li>Faciliter l'accès aux intrants agricoles et aux équipements de production</li>
+                    <li>Appuyer la mise en place de systèmes de commercialisation des produits</li>
+                    <li>Promouvoir la sécurité alimentaire et nutritionnelle au sein des ménages</li>
+                </ul>
+                
+                <h3 style="text-align: justify;"><b>Activités principales</b></h3>
+                <ul>
+                    <li>Formation en techniques de maraichage (production, compostage, gestion de l'eau)</li>
+                    <li>Formation en pisciculture (construction d'étangs, alimentation des poissons, récolte)</li>
+                    <li>Distribution d'intrants agricoles (semences, plants, engrais bio)</li>
+                    <li>Appui à la création de groupements d'épargne et de crédit</li>
+                    <li>Sensibilisation sur les droits des femmes et l'égalité de genre</li>
+                </ul>
+                
+                <h3 style="text-align: justify;"><b>Résultats attendus</b></h3>
+                <ul>
+                    <li>Les capacités des femmes en techniques agricoles et piscicoles sont renforcées</li>
+                    <li>La production maraîchère et halieutique est améliorée dans la commune de Bambaya</li>
+                    <li>Les revenus des ménages bénéficiaires sont augmentés</li>
+                    <li>La sécurité alimentaire est renforcée au niveau communautaire</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <a href="projet_francophonie.php" class="btn btn-primary btn-lg shadow-sm px-4 py-2 rounded-pill">
+            <i class="bi bi-info-circle me-2"></i> Plus de détails sur le projet
+        </a>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <!-- Fin projet Francophonie -->
                 <h1 class="fw-bold text-primary text-uppercase text-center"> OCTOBRE 2024</h1>
                 <h2 class="mb-0 text-center">Contribuer à l'abandon des pratiques de Mutilations Génitales Féminines (MGF) dans les régions de Conakry, Kindia et Boké
                 </h2>
@@ -827,7 +889,7 @@
                     <img src="img/AFD.jfif" alt="" width="50%"height="50%">
                     <img src="img/france.png" alt="" width="50%"height="50%">
                     <img src="img/unicef.png" alt="" width="50%" height="50%">
-                    <img src="img/partenaires1.png" alt="" width="50%"height="50%">
+                  <img src="img/francofonie.png" alt="" width="50%"height="50%">
                     <img src="img/logo-union-europeenne.jpg" alt="" width="50%"height="50%">
                     <img src="img/logo_coop.4ba0e51e9185.png" alt="" width="50%" height="50%">
                 </div>

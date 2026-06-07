@@ -179,9 +179,7 @@
             <!-- Logo et images -->
             <div class="row mb-5">
                 <div class="col-12 text-center">
-                    <img src="img/Expertise france.png" alt="Expertise France" class="img-fluid" style="max-height: 50px; margin: 10px;">
-                    <img src="img/AFD.jfif" alt="AFD" class="img-fluid" style="max-height: 100px; margin: 10px;">
-                    <img src="img/france.jfif" alt="APRODEJ" class="img-fluid" style="max-height: 100px; margin: 10px;">
+                    <img src="img/LogoAFD_EF.jpeg" alt="Expertise France" class="img-fluid" style="max-height: 100px; margin: 10px;">
                 </div>
             </div>
             
@@ -794,7 +792,7 @@
                     <img src="img/AFD.jfif" alt="" width="50%"height="50%">
                     <img src="img/france.png" alt="" width="50%"height="50%">
                     <img src="img/unicef.png" alt="" width="50%" height="50%">
-                    <img src="img/partenaires1.png" alt="" width="50%"height="50%">
+                  <img src="img/francofonie.png" alt="" width="50%"height="50%">
                     <img src="img/logo-union-europeenne.jpg" alt="" width="50%"height="50%">
                     <img src="img/logo_coop.4ba0e51e9185.png" alt="" width="50%" height="50%">
                 </div>

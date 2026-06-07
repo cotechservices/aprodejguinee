@@ -173,7 +173,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Visitez notre bureau</h5>
-                            <h4 class="text-primary mb-0"> <a href="https://www.google.com/maps/place/ONG+APRODEJ/@11.3409535,-12.5176826,10.75z/data=!4m14!1m7!3m6!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!2sONG+APRODEJ!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0!3m5!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0">Labé, Guinée Conakry</a> </h4>
+                            <h4 class="text-primary mb-0"> Labé et Boké</h4>
                         </div>
                     </div>
                 </div>
