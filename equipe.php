@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
-    <meta  name = " viewport "  content = " width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -32,7 +32,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <style>
-    .team-img {
+        .team-img {
             width: 100%;
             height: 300px;
             overflow: hidden;
@@ -50,7 +50,19 @@
         .team-img img:hover {
             transform: scale(1.05);
         }
-</style>
+        .ancien-section {
+            opacity: 0.8;
+        }
+        .badge-ancien {
+            background-color: #6c757d;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 15px;
+            font-size: 12px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -64,7 +76,7 @@
                     <small class="text-light"><i class="fa fa-envelope-open me-2"></i> aprodejlabe2007@gmail.com </small>
                 </div>
             </div>
-            <div class="col-lg-4  text-lg-end text-center text-lg-end mb-4 mb-lg-0">
+            <div class="col-lg-4 text-lg-end text-center text-lg-end mb-4 mb-lg-0">
                 <div class="text-lg-end text-center text-lg-end mb-6 mb-lg-0 align-items-end" style="height: 45px;">
                     <p style="color: aliceblue; text-align: center; ">APRODEJ-GUINEE <br>l'ONG qui défend vos droits </p>
                 </div>
@@ -72,19 +84,20 @@
         </div>
     </div>
     <!-- Topbar End -->        
+    
     <!-- Navbar & Carousel Start -->
     <div class="container-fluid position-relative p-0 w-100">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid px-2 px-md-4">
-                    <img src="img/logo.jpg" alt="logo aprodej" style="width: 55px; height: auto; border-radius: 10px;">
+                <img src="img/logo.jpg" alt="logo aprodej" style="width: 55px; height: auto; border-radius: 10px;">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-label="Menu">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ms-auto py-2 py-lg-0">
-                        <li class="nav-item"><a href="index.php" class="nav-link ">Accueil</a></li>
+                        <li class="nav-item"><a href="index.php" class="nav-link">Accueil</a></li>
                         <li class="nav-item"><a href="apropos.php" class="nav-link">Apropos</a></li>
-                        <li class="nav-item"><a href="projets.php" class="nav-link ">Projets</a></li>
+                        <li class="nav-item"><a href="projets.php" class="nav-link">Projets</a></li>
                         <li class="nav-item"><a href="equipe.php" class="nav-link active">Membres</a></li>
                         <li class="nav-item"><a href="blog.php" class="nav-link">Activités</a></li>
                         <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
@@ -104,6 +117,7 @@
         </div>
     </div>
     <!-- Navbar End -->
+
     <!-- Team Start -->
     <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
@@ -119,7 +133,7 @@
             include("config/config.php");
             
             // Fonction pour afficher les membres par catégorie
-            function displayMembers($pdo, $type, $title, $delay_start = 0.3) {
+            function displayMembers($pdo, $type, $title, $delay_start = 0.3, $show_ancien = false) {
                 echo '<div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">';
                 echo '<h3 class="mb-0">' . $title . '</h3>';
                 echo '</div>';
@@ -128,12 +142,24 @@
                 $delay = $delay_start;
                 $sql = "";
                 
-                if ($type == 'fondateur') {
-                    $sql = "SELECT * FROM employes WHERE membre_fondateur = 1 AND statut = 'actif' ORDER BY id ASC";
-                } elseif ($type == 'adherent') {
-                    $sql = "SELECT * FROM employes WHERE membre_adherent = 1 AND statut = 'actif' ORDER BY id ASC";
-                } elseif ($type == 'employe') {
-                    $sql = "SELECT * FROM employes WHERE membre_fondateur = 0 AND membre_adherent = 0 AND statut = 'actif' ORDER BY id ASC";
+                if ($show_ancien) {
+                    // Afficher les anciens membres
+                    if ($type == 'fondateur') {
+                        $sql = "SELECT * FROM employes WHERE membre_fondateur = 1 AND statut = 'ancien' ORDER BY id ASC";
+                    } elseif ($type == 'adherent') {
+                        $sql = "SELECT * FROM employes WHERE membre_adherent = 1 AND statut = 'ancien' ORDER BY id ASC";
+                    } elseif ($type == 'employe') {
+                        $sql = "SELECT * FROM employes WHERE membre_fondateur = 0 AND membre_adherent = 0 AND statut = 'ancien' ORDER BY id ASC";
+                    }
+                } else {
+                    // Afficher les membres actifs
+                    if ($type == 'fondateur') {
+                        $sql = "SELECT * FROM employes WHERE membre_fondateur = 1 AND statut = 'actif' ORDER BY id ASC";
+                    } elseif ($type == 'adherent') {
+                        $sql = "SELECT * FROM employes WHERE membre_adherent = 1 AND statut = 'actif' ORDER BY id ASC";
+                    } elseif ($type == 'employe') {
+                        $sql = "SELECT * FROM employes WHERE membre_fondateur = 0 AND membre_adherent = 0 AND statut = 'actif' ORDER BY id ASC";
+                    }
                 }
                 
                 try {
@@ -164,6 +190,9 @@
                             } else {
                                 echo '<b>EMPLOYE</b>';
                             }
+                            if ($show_ancien) {
+                                echo '<br><span class="badge-ancien">Ancien membre</span>';
+                            }
                             echo '</p>';
                             echo '</div>';
                             echo '</div>';
@@ -173,7 +202,9 @@
                             if ($delay > 1.2) $delay = 0.3;
                         }
                     } else {
-                        echo '<div class="col-12 text-center"><p>Aucun membre dans cette catégorie.</p></div>';
+                        if (!$show_ancien) {
+                            echo '<div class="col-12 text-center"><p>Aucun membre dans cette catégorie.</p></div>';
+                        }
                     }
                 } catch (PDOException $e) {
                     echo '<div class="col-12 text-center"><p>Erreur : ' . $e->getMessage() . '</p></div>';
@@ -182,16 +213,26 @@
                 echo '</div>';
             }
             
-            // Affichage des différentes catégories
-            displayMembers($pdo, 'fondateur', 'Membres Fondateurs', 0.3);
+            // Affichage des membres actifs
+            displayMembers($pdo, 'fondateur', 'Membres Fondateurs', 0.3, false);
             echo '<br>';
-            displayMembers($pdo, 'adherent', 'Membres Adhérents', 0.3);
-            displayMembers($pdo, 'employe', 'EMPLOYES', 0.3);
+            displayMembers($pdo, 'adherent', 'Membres Adhérents', 0.3, false);
+            displayMembers($pdo, 'employe', 'EMPLOYES', 0.3, false);
+            
+            // Affichage des anciens membres en bas
+            echo '<br><hr style="border-top: 2px solid #06BBCC; margin: 30px 0;">';
+            echo '<div class="ancien-section">';
+            displayMembers($pdo, 'fondateur', 'Anciens Membres Fondateurs', 0.3, true);
+            echo '<br>';
+            displayMembers($pdo, 'adherent', 'Anciens Membres Adhérents', 0.3, true);
+            displayMembers($pdo, 'employe', 'Anciens EMPLOYES', 0.3, true);
+            echo '</div>';
             ?>
             
         </div>
     </div>
     <!-- Team End -->
+
     <!-- Vendor Start -->
     <div class="container py-5 mb-5">
         <div class="bg-white">
@@ -218,11 +259,11 @@
                         <a href="index.php" class="navbar-brand">
                             <h3 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>APRODEJ-GUINEE</h3>
                         </a>
-                         <p class="mt-3 mb-4">ASSOCIATION LA PROMOTION ET LE DÉVELOPPEMENT DE L’ENTREPREUNARIAT ET JEUNESSE ONG DE PROTECTION DES DROITS HUMAINS ET DE L’ENVIRONNEMENT.
+                        <p class="mt-3 mb-4">ASSOCIATION LA PROMOTION ET LE DÉVELOPPEMENT DE L'ENTREPREUNARIAT ET JEUNESSE ONG DE PROTECTION DES DROITS HUMAINS ET DE L'ENVIRONNEMENT.
                             <br> 
-                             <br>
-                           <em> Le soutien des enfants, jeunes et les personnes vulnerables</em></p>
-                      
+                            <br>
+                            <em>Le soutien des enfants, jeunes et les personnes vulnerables</em>
+                        </p>
                     </div>
                 </div>
                 <div class="col-8">
@@ -234,20 +275,20 @@
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-primary me-2"></i>
                                 <p class="mb-0">
-                                    <a href="https://www.google.com/maps/place/ONG+APRODEJ/@11.315768,-12.2951546,17z/data=!4m14!1m7!3m6!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!2sONG+APRODEJ!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0!3m5!1s0xefc3b73c592c1eb:0x2c3108ac467a4dc6!8m2!3d11.315768!4d-12.2902837!16s%2Fg%2F11sd73ngm0">Labé et Boké</a></p>
+                                    <a href="https://www.google.com/maps/place/ONG+APRODEJ/@11.315768,-12.2951546,17z/">Labé et Boké</a>
+                                </p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-primary me-2"></i>
-                                <p class="mb-0"> <a href="https://mail.google.com/mail/u/0/"> aprodejlabe2007@gmail.com</a> </p>
+                                <p class="mb-0"><a href="https://mail.google.com/mail/u/0/"> aprodejlabe2007@gmail.com</a></p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-primary me-2"></i>
-                              <p class="mb-0"> +224 622 515 869</p>
+                                <p class="mb-0">+224 622 515 869</p>
                             </div>
-                        
                             <div class="d-flex mt-4">
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-primary btn-square me-2" href="https://www.facebook.com/profile.php?id=100063629130970&mibextid=ZbWKwL"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="https://www.facebook.com/profile.php?id=100063629130970"><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                             </div>
@@ -258,52 +299,45 @@
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
                                 <a class="text-light mb-2" href="index.php"><i class="bi bi-arrow-right text-primary me-2"></i>Accueil</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Apropos</a>
-                                <a class="text-light mb-2" href="apropos.php"><i class="bi bi-arrow-right text-primary me-2"></i>Nos Projets</a>
-                                <a class="text-light mb-2" href="projets.php"><i class="bi bi-arrow-right text-primary me-2"></i>Notre Equipe</a>
-                               
-                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contactez-nous</a>
+                                <a class="text-light mb-2" href="apropos.php"><i class="bi bi-arrow-right text-primary me-2"></i>Apropos</a>
+                                <a class="text-light mb-2" href="projets.php"><i class="bi bi-arrow-right text-primary me-2"></i>Nos Projets</a>
+                                <a class="text-light mb-2" href="equipe.php"><i class="bi bi-arrow-right text-primary me-2"></i>Notre Equipe</a>
+                                <a class="text-light" href="contact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contactez-nous</a>
                             </div>
                         </div>
-                       <div class="col-lg-3 col-md-12 pt-0 pt-lg-5 mb-5">
-                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="text-light mb-0">Partenaires</h3>
-                        </div>
-
-                        <div class="row g-2 text-center">
-                            <div class="col-6">
-                                <img src="img/unicef.png" alt="UNICEF" class="img-fluid bg-white p-1 rounded">
+                        <div class="col-lg-3 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Partenaires</h3>
                             </div>
-
-                            <div class="col-6">
-                                <img src="img/logo-union-europeenne.jpg" alt="Union Européenne" class="img-fluid bg-white p-1 rounded">
+                            <div class="row g-2 text-center">
+                                <div class="col-6">
+                                    <img src="img/unicef.png" alt="UNICEF" class="img-fluid bg-white p-1 rounded">
+                                </div>
+                                <div class="col-6">
+                                    <img src="img/logo-union-europeenne.jpg" alt="Union Européenne" class="img-fluid bg-white p-1 rounded">
+                                </div>
+                                <div class="col-6">
+                                    <img src="img/logo_coop.4ba0e51e9185.png" alt="Coopération" class="img-fluid bg-white p-1 rounded">
+                                </div>
+                                <div class="col-6">
+                                    <img src="img/francofonie.png" alt="Francophonie" class="img-fluid bg-white p-1 rounded">
+                                </div>
+                                <div class="col-6">
+                                    <img src="img/LogoAFD_EF.jpeg" alt="Expertise France" class="img-fluid bg-white p-1 rounded">
+                                </div>
                             </div>
-
-                            <div class="col-6">
-                                <img src="img/logo_coop.4ba0e51e9185.png" alt="Coopération" class="img-fluid bg-white p-1 rounded">
-                            </div>
-
-                            <div class="col-6">
-                                <img src="img/francofonie.png" alt="France" class="img-fluid bg-white p-1 rounded">
-                            </div>
-
-                            <div class="col-6">
-                                <img src="img/LogoAFD_EF.jpeg" alt="Expertise France" class="img-fluid bg-white p-1 rounded">
-                            </div>
-                        </div>
-                    </div>                 
+                        </div>                 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid text-white w-100" style="background: #061429; ">
+    <div class="container-fluid text-white w-100" style="background: #061429;">
         <div class="container text-center">
             <div class="row justify-content-end">
                 <div class="col-lg-8 col-md-6">
                     <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                        <p class="mb-0">&copy;2023 <a class="text-white border-bottom" href="index.php" style="font-size: 15px;">aprodejguinee.org</a>
-						
+                        <p class="mb-0">&copy;2023 <a class="text-white border-bottom" href="index.php" style="font-size: 15px;">aprodejguinee.org</a></p>
                     </div>
                 </div>
             </div>
@@ -311,10 +345,8 @@
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="index.html" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

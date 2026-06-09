@@ -57,7 +57,8 @@
     <div class="container-fluid position-relative p-0 w-100">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid px-2 px-md-4">
-                <img src="img/logo.jpg" alt="logo aprodej" style="width: 55px; height: auto; border-radius: 10px;">
+                <a href="login.php">
+                <img src="img/logo.jpg" alt="logo aprodej" style="width: 55px; height: auto; border-radius: 10px;"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-label="Menu">
                     <span class="fa fa-bars"></span>
                 </button>
